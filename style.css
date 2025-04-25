@@ -1,0 +1,115 @@
+
+body{
+    
+    margin: 0%;
+    padding:0%;
+    overflow-x: hidden;
+}
+#group-name{
+    font-size: 300%;
+    color:black;
+    text-align: center;
+    margin:2% auto;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap:15%;
+    border-top:solid black 1px;
+
+
+
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    font-weight: bolder;
+   margin:2% 0%;
+}
+.page-intro{
+    background-color:#F5F5DC;
+    width:100vw;
+    height:70vh;
+    position: relative;
+    /* border:solid black;  */
+    color:#584205;
+
+}
+.overview{
+   
+    text-align: center;
+  line-height: 2;
+}
+.overview h1{
+    padding:5% 30% ;
+    width:40%;
+    font-size: 400%;
+}
+.overview p{
+    font-size: 200%;
+}
+.web-info {
+    text-align: center;
+    h1{
+  font-size: 500%;
+    }
+    h2{
+        font-size: 300%;
+    }
+  
+
+}
+.reviews{
+    width:50%;
+    text-align: center;
+    position: relative;
+}
+.review{
+    display:none;
+
+    h3{
+        font-size: 350%;
+    }
+}
+.book-covers{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    /* background-color: #717171; */
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  /* #left-qoute {
+    font-size: 70%;
+
+
+}
+
+#right-qoute {
+ 
+
+    font-size: 100%;
+
+
+} */
