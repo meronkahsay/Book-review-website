@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: "Poppins";
+}
+body{
+      overflow-x: hidden;
+    background-image: linear-gradient(#2d3944, #343e49);
+    /* background-color: #9bc3e9; */
+    /* background-color: white; */
+    width: 100%;
+}
+.container{
+    /* background-image: linear-gradient(#212A31, #2E3944); */
+}
+.container h1{
+    font-family: "Merriweather";
+    font-size: 300%;
+    font-weight: bold;
+}
+.first-insight,.second-insight,.third-insight,.fourth-insight,.fifth-insight{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-bottom: -7%;
+    color: white;
+}
+.number1,.number2,.number3,.number4,.number5{
+   font-size: 205px;
+   -webkit-text-stroke: 2px gray;
+   -webkit-text-fill-color: transparent;
+   align-content: center;
+   margin-top: -8%;
+ }
+   .number1,.number3,.number5{
+    margin-left: -19%;
+   }
+   .number2,.number4{
+    margin-left: 19%;
+   }
+.number1 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-clip: text;
+}
+.number2 p{
+    background-image: url(images/city-8206042_640.png);
+    background-size: cover;
+    background-clip: text;
+}
+.number3 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-size: contain;
+    background-clip: text;
+}
+.number4 p{
+    background-image: url(images/city-8206042_640.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+}
+.number5 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+}
+.independence h1+p,.rich-without-money h1 +p,.relationship h1 +p,.patriachy h1 +p,.power-of-language h1 +p{
+    color: #FFCC00;
+    /* color: #51ff00; */
+}
+.book-review{
+    background:url(https://i.pinimg.com/736x/59/e4/dc/59e4dc1c99e4b92f6cd7dbdc28953eb5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    font-size: 0.7em;
+    /* flex-wrap: nowrap; */
+  
+}
+.noah-review {
+    font-size: 0.4in;
+    padding-top: 20%;
+    font-weight: bolder;
+    color: #9bc3e9;
+    /* color: #FFCC00; */
+    /* color: white; */
+    place-items: center;
+    align-items: center;
+}
+.first-book{
+    border: 1px solid white;
+    width: 31vw;
+    height: 86vh;
+    margin-top: 4%;
+    border-radius: 12px;
+    /* padding: 1cm; */
+    color: black;
+    font-weight: 500;
+    transform: rotate(-15deg);
+    margin-left: -12%;
+}
+.picture1 img{
+    width: 8vw;
+    height: 15vh;
+}
+.review{
+    display: flex;
+    gap: 2cm;
+    padding: 0.6cm;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.about-author{
+    display: flex;
+    margin-bottom: 15%;
+    gap: 1cm;
+    padding: 0.6cm;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* box-shadow: rgba(219, 224, 230, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+    /* background-color: rgb(29, 21, 21); */
+    background-color: rgb(227, 238, 248);
+}
+.other-books{
+    display: flex;
+    gap: 1cm;
+    padding: 0.6cm;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* background-color:rgb(36, 30, 30); */
+    background-color: white;
+    margin-top: -17%;
+}
+.review img{
+    width: 9vw;
+    height: 19vh;
+}
+.first-book h2{
+    color: #FFCC00;
+}
+.their-pictures{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.4cm;
+    border-radius: 12px;
+    background-color: rgb(227, 238, 248);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+    body{
+        font-size: 0.6em;
+    }
+    .first-book{
+        display: grid;
+        width: 21vw;
+    height: 36vh;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    /* font-size: 0.4em; */
+    }
+    .noah-review {
+        font-size: 0.2in;
+    }
+    .book-review{
+        display: block;
+        height: 140vh;
+    }
+    .first-book{
+        transform: none;
+        margin: 15%;
+        /* font-weight: 400; */
+    }
+    .first-insight,.second-insight,.third-insight,.fourth-insight,.fifth-insight{
+        display: block;
+    }
+    .number1,.number3,.number5{
+        margin-left: 10%;
+       }
+       .number2,.number4{
+        margin-left: 19%;
+       }
+       .fifth-insight{
+        flex-direction: row-reverse;
+       }
+       .container{
+        margin-top: 12%;
+       }
+}
