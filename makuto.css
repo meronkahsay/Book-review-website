@@ -1,0 +1,57 @@
+.back{
+    background-image: url(Images/person.avif);
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+}
+#review{
+    width: 10.5cm;
+    height: 13cm;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    border-radius: 2cm;
+    padding: 1cm;
+}
+.book{
+    background-color:white;
+    position: absolute;
+    width: 25cm;
+    height: 15cm;
+    margin-left: 10cm;
+    margin-top: 5cm;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+}
+.heart{
+    position: absolute;
+}
+#crime{
+    position: absolute;
+    top: 2cm;
+    /* color: white; */
+    left: 16cm;
+    font-family: "Merriweather";
+    /* font-size: 20px; */
+}
+#rename{
+    position: absolute;
+    top: 3.5cm;  
+    left: 12cm;
+    font-family: "Poppins";
+
+}
+#book-review{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: #212A31;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    top: 10cm;
+    right: 5.8cm;
+}
+#book-review:hover{
+    color: rgb(2, 1, 1);
+    background-color: orange;
+}
