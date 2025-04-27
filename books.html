@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="books.css">
+    <script src="https://kit.fontawesome.com/4218768d2a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>
+        Our Book Reviews
+    </h1>
+    <div class="book-review">
+        <div class="backgroound-image">
+            <form>
+                <input type="text" id="searchInput" placeholder="Search for a book ...">
+                <label type=""><i class="fa fa-search"></i></label>
+            </form>
+            <img src="Images/1000050246 (1).jpg">
+            <h1>APRIL</h1>
+        </div>
+        <div class="all-books">
+            <div class="born-a-crime book" data-title="Born a Crime">
+                <img src="Images/trevor.jpg" alt="Born a Crime">
+            </div>
+            <div  id="book-popup-one" class="popup"><p class="popup-message"><q>A powerful memoir of survival and identity in appartheid South Africa.</q> <i class="fa-solid fa-hand-back-fist"></i></p></div>
+            <div class="book power-of-habit" data-title="The Power of Habit">
+                <img src="Images/poewer.jpg" alt="The Power of Habit">
+            </div>
+            <div  id="book-popup-two" class="popup"><p class="popup-message"><q>Unlock the science behind how habits are formed and changed.</q><i class="fa-solid fa-brain"></i></p></div>
+            <div class="book home-going" data-title="Home Going">
+                <img src="Images/home going.png" alt="Home Going">
+            </div>
+            <div  id="book-popup-three" class="popup"><p class="popup-message"><q>A sweeping story of family, history, and the legacy of slavery.</q><i class="fa-solid fa-globe"></i><br>Coming soon</p></div>
+            <div class="book becoming" data-title="Becoming">
+                <img src="Images/becoming.jpg" alt="Becoming">
+            </div>
+            <div  id="book-popup-four" class="popup"><p class="popup-message"><q>An intimate and inspiring journey through the life of Michelle Obama.</q><i class="fa-solid fa-crown"></i><br>Coming soon</p></div>
+            <div class="book alchemist" data-title="The Alchemist">
+                <img src="Images/the_alchemist2-removebg-preview (1).png" alt="The Alchemist">
+            </div>
+            <div  id="book-popup-five" class="popup"><p class="popup-message"><q>Follow a young shephered's journey to find his personal legend.</q><i class="fa-solid fa-compass"></i><br>Coming soon</p></div>
+            <div class="book liongaze" data-title="Lion Gaze">
+                <img src="Images/benmeath.jpeg" alt="Lion Gaze">
+            </div>
+            <div  id="book-popup-six" class="popup"><p class="popup-message"><q>A family's struggle for survival during Ethiopia's revolution.</q><i class="fa-solid fa-fire-flame-curved"></i><br>Coming soon</p></div>
+            <div class="book my-cheese" data-title="Who Moved My Cheese">
+                <img src="Images/moved.png" alt="Who Moved My Cheese">
+            </div>
+            <div  id="book-popup-seven" class="popup"><p class="popup-message"><q>A simple parable about adapting to change in work and life.</q><i class="fa-solid fa-puzzle-piece"></i><br>Coming soon</p></div>
+            <div class="book weep" data-title="Weep Not Child">
+                <img src="Images/weepimg.jpeg" alt="Weep Not, Child">
+            </div>
+            <div  id="book-popup-eight" class="popup"><p class="popup-message"><q>A touching table of hope and loss during kenya's colonial era.</q><i class="fa-solid fa-book"></i><br>Coming soon</p></div>
+            <div class="book hands-maid" data-title="The Handmaid's Tale">
+                <img src="Images/HAND.png" alt="The Handmaid's Tale">
+            </div>
+            <div  id="book-popup-nine" class="popup"><p class="popup-message"><q>A chilling dystopian story about power, control, and resistance.</q><br>Coming soon</p></div>
+            <div class="book dear-igeawel" data-title="Dear Ijeawele">
+                <img src="Images/dear igeawell.jpeg" alt="Dear Ijeawele">
+            </div>
+            <div  id="book-popup-ten" class="popup"><p class="popup-message"><q>A heartfelt guide on raising feminist daughters.</q></p><br>Coming soon</div>
+            <div class="book girl-with-loudingvoice" data-title="The Girl with the Louding Voice">
+                <img src="Images/louding voice.png" alt="The Girl with the Louding Voice">
+            </div>
+            <div  id="book-popup-eleven" class="popup"><p class="popup-message"><q>The inspiring story of a Nigerian girl fighting for her education and voice</q><br>Coming soon</p></div>
+             <h3 id="coming">Coming Soon...</h3>
+        </div>
+    </div>
+        <script>
+            const searchInput = document.getElementById('searchInput');
+            const books = document.querySelectorAll('.book');
+            searchInput.addEventListener('input', function () {
+                const filter = searchInput.value.toLowerCase();
+                books.forEach(book => {
+                    const title = book.getAttribute('data-title').toLowerCase();
+                    if (title.includes(filter)) {
+                        book.style.display = 'flex';
+                    } else {
+                        book.style.display = 'none';
+                    }
+                });
+            });
+        </script>
+</body>
+
+</html>
