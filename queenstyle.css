@@ -1,0 +1,187 @@
+
+body {
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #beb8b8;
+    color: #333;
+  }
+  header {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 3.5em;
+  }
+  .container {
+    padding: 30px;
+    margin: auto;
+    display: flex;
+   gap: 200px;
+  }
+  .cover{
+      width: 470px;
+  }
+  .hero{
+      background-image:linear-gradient(rgba(0,0,0,0.5)),url('./queenImages/trevoah.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color:white;
+      text-align: center;
+  }
+  .hero.overlay{
+      background-color: rgba(0,0,0,0.6);
+      padding: 40px;
+      border-radius: 10px;
+  }
+  .overlay p{
+    font-size: 2em;
+    color: aliceblue;
+  }
+  h2 {
+    color: #111010;
+    margin-top: 40px;
+    font-size: 3vh;
+  }
+  p{
+    font-size: 2.3vh;
+    color:rgb(78, 76, 75);
+  }
+  a{
+    color:rgb(247, 244, 244);
+    text-decoration: none;
+  margin-left: 25vh;
+  margin-top: 5vh;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    color: rgb(27, 26, 26);
+    border-top: 1px solid #161515;
+    margin-top: 50px;
+  }
+  .review{
+    text-align: justify;
+    width:100vh;
+    overflow: scroll;
+    height: 60vh;
+    overflow-x: hidden;
+  }
+  audio{
+    margin-top: 50px;
+  }
+  button{
+    border:none;
+    border: 5px;
+    padding:12px 8px;
+    cursor: pointer;
+    margin:0px;
+    display: block;
+    font-size: 20px;
+    width: 25%;
+    height: 50px;
+    color: rgb(14, 13, 13);
+    margin-top: -50px;
+    margin-left: 400px;
+    
+  }
+  @media screen and (min-width: 320px)and (max-width: 480px){
+    .cover{
+        width: 270px;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .review{
+        height: 100vh;
+        width:250px;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+    p{
+        font-size: 25px;
+    }
+    button{
+        margin-left: 10px;
+        margin-top: 20px;
+        width:200px;
+    }
+    audio{
+        width:200px;
+    }
+    .hero{
+        width: 270px;
+    }
+  }
+  @media screen and (min-width: 481px)and (max-width: 768px){
+    .cover{
+        width: 370px;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .review{
+        height: 100vh;
+        width:450px;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+    p{
+        font-size: 25px;
+    }
+    button{
+        margin-left: 10px;
+        margin-top: 20px;
+        width:300px;
+    }
+    audio{
+        width:300px;
+    }
+    .hero{
+        width: 350px;
+    }
+  }
+  @media screen and (max-width: 320px){
+    .cover{
+        width: 270px;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .review{
+        height: 100vh;
+        width:250px;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+    p{
+        font-size: 25px;
+    }
+    button{
+        margin-left: 10px;
+        margin-top: 20px;
+        width:200px;
+    }
+    audio{
+        width:200px;
+    }
+    .hero{
+        width: 270px;
+    }
+    footer{
+        width:300px;
+    }
+  }
+  
+   /* bgscroll{
+background-image: 
+background-attachment: fixed/scroll; */
