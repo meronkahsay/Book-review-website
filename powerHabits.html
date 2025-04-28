@@ -176,6 +176,13 @@
       <a href="https://www.jumia.co.ke/the-power-of-habit-by-charles-duhigg-jumia-books-mpg8340564.html?srsltid=AfmBOoqJH18L1xWqrWRYZbrMjgfjoRSriz_gOr1XlW7jGrH-rnH53Hlj"><img src="Images/jumia.png" id="jumia"></a> 
     </div>
     </div>
+    <script>
+        let likeCount = 0;
+     document.getElementById('like-btn').addEventListener('click', function () {
+         likeCount++;
+         document.getElementById('like-count').innerText = likeCount + " Likes"
+     });
+ </script>
 </body>
 
 </html>

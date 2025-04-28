@@ -24,7 +24,10 @@ h2 {
   font-size: 350%;
   font-family: "Merriweather";
 }
-
+a{
+  text-decoration: none;
+  color:white;
+}
 nav {
   top: 0;
   background-image: linear-gradient(#212A31, #2E3944);
@@ -178,19 +181,19 @@ nav img {
   width: 30%;
   display: flex;
   gap: 10px;
-  margin: 0 auto;
+  margin: 0 35%;
 }
 
 .book-covers-power img {
-  width: 30%;
+  width: 23%;
 
 
 }
 
 .book-covers-power {
   display: flex;
-  gap: 60px;
-  margin: 0 30% 0 40%;
+  gap: 10px;
+
 }
 
 .fade {
@@ -326,7 +329,8 @@ footer {
     flex-wrap: wrap;
   }
   .book-covers-power img{
-    width:90%;
+    width:40%;
+    margin-left:30%;
   }
   .review h3{
     font-size: 100%;

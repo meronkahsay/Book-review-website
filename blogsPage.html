@@ -29,12 +29,12 @@
       <div class="blogs">
         <div>
         <img src="./BlogPageImages/queen.png">
-        <h2><a href="queen.html">Queen Carine</a></h2>
+        <h2><a href="oddManBlog.html">Queen Carine</a></h2>
         <p>"Vivid writing"</p>
       </div>
       <div>
       <img src="./BlogPageImages/gebru.png">
-      <h2><a href="meron.html">Meron Gebru</a></h2>
+      <h2><a href="cageBlog.html">Meron Gebru</a></h2>
         <p>"So eccentric"</p>
       </div>
       <div>
@@ -44,7 +44,7 @@
       </div>
       <div>
         <img src="./BlogPageImages/ushi.png">
-        <h2><a href="ushi.html">Ushi Adiambo</a></h2>
+        <h2><a href="outlawedBirth.html">Ushi Adiambo</a></h2>
           <p>"Captivative"</p>
         </div>
       </div>
@@ -53,19 +53,26 @@
       <div class="newBlogs">
         <div>
         <img src="./BlogPageImages/makuto.png">
-         <h2><a href="makuto.html">Mercylin Makuto</a></h2>
+         <h2><a href="heartBlog.html">Mercylin Makuto</a></h2>
         <p>"Such a masterpiece"</p>
       </div>
       <div>
         <img src="./BlogPageImages/meron.png">
-        <h2><a href="meronTewelde.html">Meron Kahsay</a></h2>
+        <h2><a href="herFightBlog.html">Meron Kahsay</a></h2>
         <p>"Unforgettable read"</p>
       </div>
       <div>
         <img src="./BlogPageImages/lyn.png">
-        <h2><a href="linn.html">Linn Amondi</a></h2>
+        <h2><a href="crime.html">Linn Amondi</a></h2>
         <p>"Highly recommended"</p>
       </div>
       </div>
+      <script>
+        let likeCount = 0;
+     document.getElementById('like-btn').addEventListener('click', function () {
+         likeCount++;
+         document.getElementById('like-count').innerText = likeCount + " Likes"
+     });
+ </script>
 </body>
 </html>
