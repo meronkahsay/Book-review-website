@@ -10,6 +10,37 @@ body{
   background-image: linear-gradient(#212A31, #2E3944);
 
 }
+
+nav {
+    top: 0;
+    background-image: linear-gradient(#212A31, #2E3944);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    width: 100vw;
+  
+  
+  
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    font-weight: bolder;
+    margin: 1% 0%;
+  
+  }
+  
+  nav a:hover {
+    color: #ffbf00;
+  
+  }
+  
+  nav img {
+    width: 150px;
+  }
 .container{
     background-color: whitesmoke; 
     /* background: #f4f4f4; */
