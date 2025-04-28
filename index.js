@@ -1,21 +1,26 @@
-// let slideIndex = 0;
-// showSlides();
+let currentReviewBornACrime = 0;
+let currentReviewPowerOfHabit = 0;
 
-// function showSlides() {
-//   let i;
-//   let slides = document.getElementsByClassName("review");
-//   let dots = document.getElementsByClassName("dot");
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";  
-//   }
-//   slideIndex++;
-//   if (slideIndex > slides.length) {slideIndex = 1}    
-//   for (i = 0; i < dots.length; i++) {
-//     dots[i].className = dots[i].className.replace(" active", "");
-//   }
-//   slides[slideIndex-1].style.display = "block";  
-//   dots[slideIndex-1].className += " active";
-//   setTimeout(showSlides, 8000); // Change image every 2 seconds
-// }
+const reviewsBornACrime = document.querySelectorAll('.reviews.born-a-crime .review');
+const reviewsPowerOfHabit = document.querySelectorAll('.reviews.power-of-habit .review');
 
+function showReview(book, index) {
+    const reviews = book === 'born-a-crime' ? reviewsBornACrime : reviewsPowerOfHabit;
+    reviews.forEach((review, i) => {
+        review.classList.remove('active');
+        if (i === index) {
+            review.classList.add('active');
+        }
+    });
+}
+
+setInterval(() => {
+    currentReviewBornACrime = (currentReviewBornACrime + 1) % reviewsBornACrime.length;
+    showReview('born-a-crime', currentReviewBornACrime);
+}, 5000);
+
+setInterval(() => {
+    currentReviewPowerOfHabit = (currentReviewPowerOfHabit + 1) % reviewsPowerOfHabit.length;
+    showReview('power-of-habit', currentReviewPowerOfHabit);
+}, 5000);
 

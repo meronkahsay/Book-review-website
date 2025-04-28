@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Books Review</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <script src="https://kit.fontawesome.com/1731d8bcda.js" crossorigin="anonymous"></script>
-    <link type="image/x-icon" rel="icon" href="images/images-removebg-preview.png">
+    <link type="image/x-icon" rel="icon" href="images/visual (1).svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,7 +18,7 @@
 <body>
     <div id="group-name">Book Land</div>
     <nav>
-        <img src="images/images-removebg-preview.png" alt="Background images of books reviews ">
+        <img src="images/visual (1).svg" alt="Background images of books reviews ">
         <a href="index.html">Home</a>
         <a href="books.html">Books</a>
         <a href="blogs.html">Blogs</a>
@@ -43,20 +43,19 @@
                     </section>
 
                 </div>
-
-
+               
+              <div class="heading">
                 <h1>Navigating Journey Through Reading!</h1>
-
-
-
-
+               </div>
             </div>
+           
+           
         </div>
         <div id="books" class="web-info">
             <h1>Article Overviews</h1>
             <h2>Born A Crime</h2>
             <div class="book-covers">
-                <div></div>
+
                 <img src="images/cover-trevor.jpeg" alt="Book cover">
                 <img src="images/trevor-org.jpeg" alt="Book cover">
                 <img src="images/download.jpeg" alt="Book cover">
@@ -91,12 +90,10 @@
                             class="fa-solid fa-quote-right"></i></h3>
                     <p>PEOPLE, BEST NEW BOOKS</p>
                 </div>
-                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-                <button class="next" onclick="changeSlide(1)">&#10095;</button>
             </div>
             <h2>The Power of Habit</h2>
 
-            <div class="book-covers">
+            <div class="book-covers-power">
                 <img src="images/power habit.jpg" alt="Book cover">
                 <img src="images/f9388e506ced31ec64b9bec2443b3cf5.jpg" alt=" Book cover">
 
@@ -126,9 +123,6 @@
                             class="fa-solid fa-quote-right"></i></h3>
                     <p>Wired</p>
                 </div>
-
-                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-                <button class="next" onclick="changeSlide(1)">&#10095;</button>
             </div>
             <button type="button" class="load-more-btn">Load More Books</button>
         </div>
@@ -139,52 +133,19 @@
         <p>&copy; Book Lands</p>
     </footer>
     <script>
-
         function changeQuote() {
-            const quotes = ["sdfghj", "dfghjk", "fghj"];
-            document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)]
+            const quotes = ["The Golden Rule of Habit Change: You can't extinguish a bad habit, you can only change it.","Language, even more than color, defines who you are to people.", " Small wins are a steady application of a small advantage.","We tell people to follow their dreams, but you can only dream of what you can imagine."];
+            document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+
         };
         let likeCount = 0;
         document.getElementById('like-btn').addEventListener('click', function () {
             likeCount++;
             document.getElementById('like-count').innerText = likeCount + " Likes"
         });
-        let currentReview = 0;
-        const bornReviews = document.querySelectorAll('.review .born-a-crime');
-        const habitReviews = document.querySelectorAll('.review .power-of-habit');
-        const totalReviews = reviews.length;
-        const prevBtn = document.querySelector('.prev');
-        const nextBtn = document.querySelector('.next');
 
-        function showReview(index) {
-            reviews.forEach((review, i) => {
-                review.classList.remove('active');
-                if (i === index) {
-                    review.classList.add('active');
-                }
-            });
-        }
-
-
-        showReview(currentReview);
-        function nextReview() {
-            currentReview = (currentReview + 1) % totalReviews;
-            showReview(currentReview);
-        }
-
-        function prevReview() {
-            currentReview = (currentReview - 1 + totalReviews) % totalReviews;
-            showReview(currentReview);
-        }
-
-        // Event listeners for buttons
-        nextBtn.addEventListener('click', nextReview);
-        prevBtn.addEventListener('click', prevReview);
-
-        // Auto-slide every 5 seconds
-        setInterval(nextReview, 5000);
     </script>
-
+<script src="index.js"></script>
 
 </body>
 
