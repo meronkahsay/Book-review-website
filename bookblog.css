@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 body{
-    /* background:linear-gradient(	rgb(0,128,0)); */
     width: 100%;
     background: linear-gradient(to right, #010729, #040614);
     font-family: "Poppins";
@@ -22,7 +21,6 @@ body{
 
 .about{
     display: flex;
-    /* flex-wrap: wrap; */
 }
 .about h2{
     position: absolute;
@@ -33,7 +31,7 @@ body{
 .naming-book{
     position: absolute;
     width: 20vw;
-    height: 25vw;
+    height: 35vw;
     background-color: white;
     line-height: 0.8cm;
     backdrop-filter: 5px;

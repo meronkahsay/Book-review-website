@@ -69,7 +69,7 @@ body{
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: darken;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     height: 100vh;
     font-size: 0.7em;
   
@@ -81,6 +81,7 @@ body{
     color: #9bc3e9;
     place-items: center;
     align-items: center;
+    /* margin-left: 12%; */
 }
 .first-book{
     border: 1px solid white;
@@ -92,7 +93,7 @@ body{
     color: black;
     font-weight: 500;
     transform: rotate(-15deg);
-    margin-left: -12%;
+    margin-left: 27%;
 }
 .picture1 img{
     width: 8vw;
@@ -140,13 +141,13 @@ body{
 @media screen and (min-width: 320px) and (max-width: 950px){
     body{
         font-size: 0.9em;
-        width: 100%;
+        /* width: 100%; */
         overflow-x: hidden;
     }
     .first-book{
         display: grid;
         width: 21vw;
-    height: 32vh;
+    height: 30vh;
     }
     .noah-review {
         font-size: 0.2in;
@@ -164,6 +165,7 @@ body{
         justify-content: unset;
         margin-bottom: -2%;
     }
+   
     .number1,.number3,.number5{
         margin-left: 10%;
         
@@ -187,6 +189,54 @@ body{
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         background-color: white;
         margin-top: -17%;
+    }
+    .independence{
+        margin-top: 130%;
+    }
+    .independence h1{
+        margin-left: 12%;
+    }
+    .number1{
+        margin-top: -228%;
+        margin-left: 22%;
+    }
+    .rich-without-money{
+        margin-top: -65%;
+    }
+    .rich-without-money h1{
+        margin-left: 12%;
+    }
+    .power-of-language h1{
+        margin-top: 62%;
+    }
+    .number3{
+        margin-top: -234%;
+        margin-left: 20%;
+    }
+    .relationship{
+        margin-top: -65%;
+    }
+    .relationship h1{
+        margin-left: 12%;
+    }
+    .patriachy{
+        margin-top: 62%;
+    }
+    .number5{
+        margin-top: -248%;
+        margin-left: 18%;
+    }
+    .patriachy h1{
+        margin-left: 20%;
+    }
+    .picture1 img{
+        width: 14vw;
+        /* height: 15vh; */
+    }
+    .picture img{
+     
+        width: 16vw;
+        height: 15vh;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 1120px){
