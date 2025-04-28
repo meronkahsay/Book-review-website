@@ -529,5 +529,156 @@ h2{
     p{
        font-size: 90%;
     }
+}
+
+
+@media screen and (max-width: 1366px){
+
+    .body{
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .container{
+        background-color: whitesmoke; 
+        /* background: #f4f4f4; */
+        margin-left: 0.7%;
+        width: 110vw;
+        height: 350vh;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
     
- }
+     
+    
+    }
+    .ushi{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 80%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168);
+        margin-right: 0.2cm;
+        font-size: 70%;
+    }
+
+    .mercyline{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 80%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168); 
+        margin-right: 0cm;
+        font-size: 70%;
+    
+    }
+
+    .linn{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 80%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168); 
+        margin-right: 0cm;
+        font-size: 70%;
+    
+    }
+
+    .queen{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 80%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168);
+        margin-right: 0cm;
+        font-size: 70%;
+    
+    }
+
+    .footer{
+        border: 1px solid rgb(153, 136, 153);
+        width: 134%;
+        margin-top: 1cm;
+        margin-right: px;
+        height: 25vh;
+        background: rgb(168, 162, 168);
+        
+        margin-left: -1.5cm;
+     
+}
+
+.dorothy{
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 80%;
+    border-radius: 8px;
+    padding: 20px;
+    color: #fff;
+    gap: 15px;
+    /* background-image: linear-gradient(#212A31, #2E3944); */
+    background: rgb(168, 162, 168); 
+    font-size: 70%;
+}
+
+.meron{
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 80%;
+    border-radius: 8px;
+    padding: 20px;
+    color: #fff;
+    gap: 15px;
+    background: rgb(168, 162, 168); 
+    font-size: 70%;
+}
+
+.kahsay{
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 80%;
+    border-radius: 8px;
+    padding: 20px;
+    color: #fff;
+    gap: 15px;
+    background: rgb(168, 162, 168); 
+    font-size: 70%;
+}
+
+pre{
+    margin-top: 1cm;
+    margin-left: 0.1cm;
+    font-size: 55%;
+  
+    
+    
+}
+
+h2{
+    text-align: center;
+    margin-left: 1cm;
+  }
+}
+
+ 
