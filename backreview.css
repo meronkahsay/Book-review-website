@@ -6,6 +6,61 @@ body{
     font-family: "Merriweather";
     line-height: 1cm;
     padding-top: 2cm;
-    background-image: linear-gradient(#212A31, #2E3944)
+    background-color: #2E3944
 
+}
+
+@media screen and (min-width: 412px) and (max-width: 915px){
+    body{
+        /* overflow-y: hidden; */
+        color: rgb(248, 243, 243);
+        width: 42vh;
+        height: 20vh;
+        /* padding-left: 10cm; */
+        /* padding-right: 5cm; */
+        font-family: "Merriweather";
+        line-height: 0.7cm;
+        /* padding-top: 2cm; */
+        background-color:  #2E3944;
+        margin-left: -89%;
+        font-size: 0.6em;
+        /* flex-wrap: wrap; */
+        
+    }  
+}
+@media screen and (min-width: 360px) and (max-width: 740px){
+    body{
+        /* overflow-y: hidden; */
+        color: rgb(248, 243, 243);
+        width: 42vh;
+        height: 20vh;
+        /* padding-left: 10cm; */
+        /* padding-right: 5cm; */
+        font-family: "Merriweather";
+        line-height: 0.7cm;
+        /* padding-top: 2cm; */
+        background-color:  #2E3944;
+        margin-left: -99%;
+        font-size: 0.6em;
+        /* flex-wrap: wrap; */
+        
+    }  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        /* overflow-y: hidden; */
+        color: rgb(248, 243, 243);
+        width: 42vh;
+        height: 26vh;
+        /* padding-left: 10cm; */
+        /* padding-right: 5cm; */
+        font-family: "Merriweather";
+        line-height: 0.7cm;
+        /* padding-top: 2cm; */
+        background-color:  #2E3944;
+        margin-left: -29%;
+        font-size: 0.8em;
+        /* flex-wrap: wrap; */
+        
+    }  
 }

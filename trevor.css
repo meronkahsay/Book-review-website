@@ -200,11 +200,12 @@ background-clip: text;
    width: 5cm;
    height: 5cm;
 }
-@media screen and (min-width: 0px) and (max-width: 750px){
+@media screen and (min-width: 350px) and (max-width: 1000px){
    .first-insight,.second-insight,.third-insight,.fourth-insight{
       display: flex;
       justify-content: space-around;
-      display: grid;
+      display: block;
+      /* display: grid; */
   }
   .number-one, .number-two, .number-three,.number-four{
       font-size: 205px;
@@ -226,6 +227,7 @@ background-clip: text;
       /* background-repeat: no-repeat; */
       background-clip: text;
       background-size: cover;
+      margin-left: 3cm;
   }
   
   .number-two p{
@@ -237,6 +239,7 @@ background-clip: text;
   background-image: url(Images/flower5.avif);
   background-size: cover;
   background-clip: text;
+  margin-left: 3cm;
   }
   
   .number-four p{
@@ -249,6 +252,10 @@ background-clip: text;
       /* color: rgb(248, 245, 243); */
       font-weight: bolder;
       color:   rgb(221, 58, 17);
+   }
+   .container{
+      margin-top: 21cm;
+      overflow-x: hidden;
    }
    body{
       font-family: "Poppins";
@@ -278,8 +285,8 @@ background-clip: text;
    .shaping{
       display: flex;
       gap: 3cm;
-      /* margin-top: 1cm; */
-      width: 20cm;
+      margin-top: 1cm;
+      width: 10cm;
       height: 7cm;
       padding-top: 0.8cm;
       padding-left: 0.8cm;
@@ -292,6 +299,7 @@ background-clip: text;
       display: flex;
       gap: 15cm;
       padding-top: 0.8cm;
+      display: block;
       /* justify-content: space-around; */
    }
    #summary{
@@ -300,14 +308,15 @@ background-clip: text;
    .author{
       display: flex;
       gap: 3cm;
-      margin-top: 1cm;
+      margin-top: 2cm;
       /* background-color: #2E3944; */
-      width: 20cm;
+      width: 10cm;
       height: 8.7cm;
-      padding-top: 0.8cm;
+      padding-top: 3cm;
       padding-left: 0.8cm;
-      margin-top: -7%;
+      /* margin-top: -9%; */
       box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
    }
    #charles{
       width: 4cm;
@@ -316,14 +325,15 @@ background-clip: text;
    .articles{
       display: flex;
       gap: 4cm;
-      margin-top: 1cm;
+      /* margin-top: 1cm; */
       /* background-color: #212A31; */
-      width: 20cm;
+      width: 10cm;
       height: 6cm;
-      padding-top: 0.2cm;
+      padding-top: 1cm;
       padding-left: 0.8cm;
-      margin-top: -7%;
+      margin-top: -5%;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
    }
    .change{
       display: flex;
@@ -332,17 +342,17 @@ background-clip: text;
       /* background-color: #2E3944; */
       width: 20cm;
       height: 5cm;
-      padding-top: 0.2cm;
+      padding-top: 1cm;
       padding-left: 0.8cm;
       margin-top: -7%;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       border-radius: 20px;
    }
   .right{
-    /* background-color: black;  */
+    background-color: black; 
     color: white;
-    width: 50%; 
-    height: 60vh;
+    width: 98%; 
+    height: 120vh;
     padding-right: 0.5cm;
    padding-bottom: 0.5cm;
     /* padding-left: 1cm; */
@@ -368,6 +378,10 @@ background-clip: text;
   .changing h1{
       font-family: "Merriweather";
       font-size: 250%;
+      margin-left: -1cm;
+  }
+  .changing p{
+   margin-left: -1cm;
   }
   #visual{
       /* margin-left: 5cm; */
@@ -378,10 +392,12 @@ background-clip: text;
   #card{
       width: 15cm;
       height: 15cm;
+     margin-left: -2cm;
   }
   .buying{
      display: flex;
-     gap: 4cm;
+     /* gap: 4cm; */
+     display: block;
   }
   #get{
      padding-bottom: 2%;
@@ -397,15 +413,249 @@ background-clip: text;
      /* padding-top: 3cm; */
      /* padding-right: 3cm; */
      border-radius: 100px;
-     margin-top: 4cm;
+     margin-top: 2cm;
+     margin-left: 2cm;
   }
   #prestige{
-     margin-top: 4cm;
+     margin-top: 2cm;
+    margin-left: 1cm;
   }
   #jumia{
-     margin-top: 4cm; 
+     margin-top: 2cm; 
      border-radius: 250px;
      width: 5cm;
      height: 5cm;
+     margin-left: 2cm;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 740px){
+   .first-insight,.second-insight,.third-insight,.fourth-insight{
+      display: flex;
+      justify-content: space-around;
+      display: block;
+      /* display: grid; */
+  }
+  .number-one, .number-two, .number-three,.number-four{
+      font-size: 205px;
+      -webkit-text-stroke: 2px gray;
+      -webkit-text-fill-color: transparent;
+      /* /* margin-bottom: 15%; */
+      margin-top: -9%;
+      
+      
+  }
+  .number-one, .number-three{
+      margin-left: -25%;
+      /* margin-top: -30cm; */
+  }
+  .number-two,.number-four{
+      margin-right: -25%;
+  }
+  .number-one p{
+      background-image: url(Images/flower5.avif);
+      /* background-repeat: no-repeat; */
+      background-clip: text;
+      background-size: cover;
+      margin-left: 3cm;
+      
+  }
+  
+  .number-two p{
+  background-image: url(Images/flower2.webp);
+  background-size: contain;
+  background-clip: text;
+  }
+  .number-three p{
+  background-image: url(Images/flower5.avif);
+  background-size: cover;
+  background-clip: text;
+  margin-left: 3cm;
+  }
+  
+  .number-four p{
+  background-image: url(Images/flower2.webp);
+  background-size: contain;
+  background-clip: text;
+  
+   }
+   .container h3+p{
+      /* color: rgb(248, 245, 243); */
+      font-weight: bolder;
+      color:   rgb(221, 58, 17);
+   }
+   .container{
+      margin-top: 21cm;
+      overflow-x: hidden;
+   }
+   body{
+      font-family: "Poppins";
+   }
+   h3{
+      font-family: "Merriweather";
+      font-size: 250%;
+      
+   }
+   .power{
+      background-image: url(Images/back3.jpg);
+      background-repeat: no-repeat;
+      background-size: 105% 110%;
+      height: 98vh;
+      background-blend-mode: darken;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* width: 100%; */
+      /* background-size: cover; */
+   }
+   #books{
+      width: 100%;
+      height: 100vh;
+   }
+   #first{
+      width: 4cm;
+      height: 5.5cm;
+   }
+   .shaping{
+      display: flex;
+      gap: 3cm;
+      margin-top: 1cm;
+      width: 10cm;
+      height: 7cm;
+      padding-top: 0.8cm;
+      padding-left: 0.8cm;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 20px;
+      display: block;
+      
+   }
+   .power-habits{
+      display: flex;
+      gap: 15cm;
+      padding-top: 0.8cm;
+      display: block;
+      /* justify-content: space-around; */
+   }
+   #summary{
+      color: rgb(221, 58, 17);
+   }
+   .author{
+      display: flex;
+      gap: 3cm;
+      margin-top: 2cm;
+      /* background-color: #2E3944; */
+      width: 10cm;
+      height: 8.7cm;
+      padding-top: 3cm;
+      padding-left: 0.8cm;
+      /* margin-top: -9%; */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
+   }
+   #charles{
+      width: 4cm;
+      height: 4cm;
+   }
+   .articles{
+      display: flex;
+      gap: 4cm;
+      /* margin-top: 1cm; */
+      /* background-color: #212A31; */
+      width: 10cm;
+      height: 6cm;
+      padding-top: 1cm;
+      padding-left: 0.8cm;
+      margin-top: -5%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
+   }
+   .change{
+      display: flex;
+      gap: 6cm;
+      margin-top: 1cm;
+      /* background-color: #2E3944; */
+      width: 20cm;
+      height: 5cm;
+      padding-top: 1cm;
+      padding-left: 0.8cm;
+      margin-top: -7%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 20px;
+   }
+  .right{
+    background-color: black; 
+    color: white;
+    width: 112%; 
+    height: 120vh;
+    padding-right: 0.5cm;
+   padding-bottom: 0.5cm;
+    /* padding-left: 1cm; */
+    /* margin-left: -7%; */
+    /* transform: rotate(-15deg); */
+    margin-top: 1cm;
+    
+    /* padding-top: 0.6cm; */
+  
+  }
+  .changing{
+      color: white;
+      text-align: center;
+    
+  
+     /* place-content: center; */
+     /* align-content: center; */
+     /* padding-top: 17%; */
+      /* padding-left: 4cm; */
+      margin-left: 13%;
+      margin-top:10%;
+  }
+  .changing h1{
+      font-family: "Merriweather";
+      font-size: 250%;
+      margin-left: -1cm;
+  }
+  .changing p{
+   margin-left: -1cm;
+  }
+  #visual{
+      /* margin-left: 5cm; */
+      /* place-items: center; */
+      /* height: 22cm; */
+      /* width: 15cm; */
+  }
+  #card{
+      width: 15cm;
+      height: 15cm;
+     margin-left: -2cm;
+  }
+  .buying{
+     display: flex;
+     /* gap: 4cm; */
+     display: block;
+  }
+  #get{
+     padding-bottom: 2%;
+     height: 2vh;
+     border-bottom: solid 2px;
+     width: 3.5cm;
+     color: rgb(221, 58, 17);
+     /* padding-top: -20px; */
+  }
+  #amazon{
+     width: 5cm;
+     height: 5cm;
+     /* padding-top: 3cm; */
+     /* padding-right: 3cm; */
+     border-radius: 100px;
+     margin-top: 2cm;
+     margin-left: 2cm;
+  }
+  #prestige{
+     margin-top: 2cm;
+    margin-left: 1cm;
+  }
+  #jumia{
+     margin-top: 2cm; 
+     border-radius: 250px;
+     width: 5cm;
+     height: 5cm;
+     margin-left: 2cm;
   }
 }
