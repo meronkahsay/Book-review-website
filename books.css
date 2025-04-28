@@ -1,0 +1,439 @@
+body {
+    margin: auto;
+    text-align: center;
+    color: white;
+
+    background-image: linear-gradient(#212A31, #2E3944);
+}
+
+.backgroound-image {
+    position: relative;
+}
+
+form {
+    position: absolute;
+    left: 85%;
+}
+input{
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+
+}
+input:focus{
+    outline: none;
+    border: blue solid 1px;
+}
+.backgroound-image img {
+    height: 91vh;
+    width: 40%;
+    position: relative;
+}
+
+.all-books div {
+    position: absolute;
+}
+
+.book-review h1 {
+    text-align: center;
+
+}
+
+.all-books img {
+    cursor: pointer;
+}
+
+.all-books img:hover {
+    transform: scale(1.05);
+}
+
+.backgroound-image h1 {
+    position: absolute;
+    left: 36.5%;
+    background-color: white;
+    color: black;
+    font-size: 55px;
+    top: 5%;
+}
+
+.born-a-crime {
+    top: 12%;
+    left: 50%;
+
+    img {
+        width: 8.2vw;
+        height: 18vh;
+    }
+}
+
+.power-of-habit {
+    top: 12%;
+    left: 59%;
+
+    img {
+        width: 8vw;
+        height: 18vh;
+    }
+}
+
+.home-going {
+    top: 35%;
+    left: 33.5%;
+
+    img {
+        width: 8vw;
+        height: 17vh;
+    }
+}
+
+.becoming {
+    top: 35%;
+    left: 50.5%;
+
+    img {
+        width: 8vw;
+        height: 17vh;
+    }
+}
+
+.alchemist {
+    top: 33%;
+    left: 58.6%;
+
+    img {
+        width: 8.5vw;
+        height: 21vh;
+    }
+}
+
+.liongaze {
+    top: 57.5%;
+    left: 33.5%;
+
+    img {
+        width: 7.7vw;
+        height: 17.5vh;
+    }
+}
+
+.my-cheese {
+    top: 57.5%;
+    left: 42%;
+
+    img {
+        width: 7.7vw;
+        height: 17.5vh;
+    }
+}
+
+.weep {
+    top: 57.5%;
+    left: 50%;
+
+    img {
+        width: 8vw;
+        height: 17.5vh;
+    }
+}
+
+.hands-maid {
+    top: 79.6%;
+    left: 33.5%;
+
+    img {
+        width: 7.8vw;
+        height: 16vh;
+    }
+}
+
+.dear-igeawel {
+    top: 79.6%;
+    left: 42%;
+
+    img {
+        width: 7.7vw;
+        height: 16vh;
+    }
+}
+
+.girl-with-loudingvoice {
+    top: 79.6%;
+    left: 50.6%;
+
+    img {
+        width: 7.7vw;
+        height: 16vh;
+    }
+}
+#coming{
+    bottom: 5%;
+    left: 60%;
+    position: absolute;
+}
+#book-popup-one {
+    position: absolute;
+    left: 50%;
+    top: -1%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.born-a-crime:hover~#book-popup-one {
+    visibility: visible;
+    
+    opacity: 1;
+}
+#book-popup-two {
+    position: absolute;
+    left: 59%;
+    top: 1%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.power-of-habit:hover~#book-popup-two {
+    visibility: visible;
+    opacity: 1;
+}
+#book-popup-three {
+    position: absolute;
+    left: 33.5%;
+    top: 38%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.home-going:hover~#book-popup-three {
+    visibility: visible;
+    opacity: 1;
+}
+#book-popup-four {
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.becoming:hover~#book-popup-four {
+    visibility: visible;
+    opacity: 1;
+}
+ #book-popup-five {
+    position: absolute;
+    left: 59%;
+    top: 38%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.alchemist:hover~#book-popup-five {
+    visibility: visible;
+    opacity: 1; 
+}
+#book-popup-six {
+    position: absolute;
+    left: 33.5%;
+    top: 60%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.liongaze:hover~#book-popup-six {
+    visibility: visible;
+    opacity: 1; 
+}
+#book-popup-seven {
+    position: absolute;
+    left: 42%;
+    top: 60%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.my-cheese:hover~#book-popup-seven{
+    visibility: visible;
+    opacity: 1; 
+}
+#book-popup-eight {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.weep:hover~#book-popup-eight{
+    visibility: visible;
+    opacity: 1; 
+}
+#book-popup-nine {
+    position: absolute;
+    left: 33%;
+    top: 83%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.hands-maid:hover~#book-popup-nine{
+    visibility: visible;
+    opacity: 1; 
+}
+#book-popup-ten {
+    position: absolute;
+    left: 42%;
+    top: 83%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.dear-igeawel:hover~#book-popup-ten{
+    visibility: visible;
+    opacity: 1; 
+}
+#book-popup-eleven{
+    position: absolute;
+    left: 42%;
+    top: 83%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.girl-with-loudingvoice:hover~#book-popup-eleven{
+    visibility: visible;
+}
+/* }
+#book-popup-two {
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    background-color: rgb(172, 171, 177);
+    width: 150px;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+    z-index: 10;
+}
+.liongaze:hover~#book-popup-five {
+    visibility: visible;
+    opacity: 1; */
+/* }
+.power-of-habit:hover~#book-popup-two {
+    visibility: visible;
+    opacity: 1;
+}
+.power-of-habit:hover~#book-popup-two {
+    visibility: visible;
+    opacity: 1;
+}
+.power-of-habit:hover~#book-popup-two {
+    visibility: visible;
+    opacity: 1;
+}
+.power-of-habit:hover~#book-popup-two {
+    visibility: visible;
+    opacity: 1;
+}
+.power-of-habit:hover~#book-popup-two {
+    visibility: visible;
+    opacity: 1;
+} */
+@media (max-width: 768px) {
+    .background-image img {
+      width: 70%;
+      height: auto;
+    }
+    .background-image form {
+      right: 10%;
+      top: 3%;
+    }
+    .background-image h1 {
+      font-size: 36px;
+      padding: 8px 16px;
+    }
+    .book {
+      width: 90px;
+      height: 140px;
+    }
+    .popup {
+      font-size: 12px;
+      width: 140px;
+    }
+  }
+  @media (max-width: 480px) {
+    .background-image img {
+      width: 90%;
+      height: auto;
+    }
+    .background-image h1 {
+      font-size: 28px;
+      padding: 5px 10px;
+    }
+    .book {
+      width: 80px;
+      height: 120px;
+    }
+    .popup {
+      font-size: 11px;
+      width: 130px;
+    }
+  }
