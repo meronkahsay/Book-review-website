@@ -349,15 +349,12 @@ h2{
 
 
 }
-/* .footer h2{
+/* /* .footer h2{
     margin-top: 1cm;
-}
+} */
 
 
-@media screen and (min-width: 320px) and (max-width: 857px){
-    body{
-        overflow-x: hidden;
-    }
+ @media screen and (min-width: 800px) and (max-width: 1300px){ 
     .ushi{
         display: flex;
         align-items: center;
@@ -368,31 +365,169 @@ h2{
         color: #fff;
         gap: 15px;
         background: rgb(168, 162, 168);
-        margin-right: 7m;
-       
+        margin-right: 0cm;
     }
+    .mercyline{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168); 
+        margin-right: 0cm;
     
-    .ushi img{
-        width: 100px;
-        height: 110px;
-        border-radius: 10%;
-        object-fit: cover;
-        border: 2px solid rgba(255,255,255,0.5);
-        
     }
-
-    .ushi text{
+    .linn{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168); 
+        margin-right: 0cm;
+    
+    }
+    .queen{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168);
+        margin-right: 0cm;
+    
+    }
+    .container{
+        background-color: whitesmoke; 
+        /* background: #f4f4f4; */
+        margin-left: 15%;
+        width: 70vw;
+        height: 310vh;
+        padding: 40px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 30px;
+        align-items: center;
     
     }
-    .ushi .name{
-        font-weight: bold;
-        font-size: 120%;
+    .footer{
+        border: 1px solid rgb(153, 136, 153);
+        width: 820%;
+        margin-top: 1cm;
+        margin-right: -2cm;
+        height: 25vh;
+        background: rgb(168, 162, 168);
+        padding-left: 3px;
+        padding-right: 2px;
+    }    
+    
+
+ }
+ @media screen and (min-width: 400px) and (max-width: 950px){
+    .ushi{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168);
+        margin-right: 0.2cm;
     }
-    .ushi .quote{
-        font-size: 100%;
-        line-height: 1.5;
+
+    .container{
+        background-color: whitesmoke; 
+        /* background: #f4f4f4; */
+        margin-left: 10%;
+        width: 100vw;
+        height: 310vh;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    
     }
-} */
+    .mercyline{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168); 
+        margin-right: 0cm;
+    
+    }
+    .linn{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168); 
+        margin-right: 0cm;
+    
+    }
+    .queen{
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 20px;
+        color: #fff;
+        gap: 15px;
+        background: rgb(168, 162, 168);
+        margin-right: 0cm;
+    
+    }
+    pre{
+        margin-top: 1cm;
+        margin-left: 0.1cm;
+        font-size: 55%;
+      
+        
+        
+    }
+    .buttons{
+        margin-top: 60px;
+        margin-left: 10px;
+       
+    }
+    p1{
+        margin-left: -0.7cm;
+        font-size: 70%;
+    }
+    .footer{
+        border: 1px solid rgb(153, 136, 153);
+        width: 152%;
+        margin-top: 1cm;
+        margin-right: -7px;
+        height: 25vh;
+        background: rgb(168, 162, 168);
+        
+        margin-left: -1.5cm;
+      
+    } 
+    p{
+       font-size: 90%;
+    }
+    
+ }
