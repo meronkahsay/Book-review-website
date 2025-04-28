@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 body{
     /* background:linear-gradient(	rgb(0,128,0)); */
+    width: 100%;
     background: linear-gradient(to right, #010729, #040614);
     font-family: "Poppins";
 }
@@ -9,8 +13,6 @@ body{
     height: 80vh;
     margin-bottom: 29%;
     opacity: 0.5;
-    /* background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken; */
 }
 .container{
     margin-left: 19%;
@@ -22,12 +24,10 @@ body{
     /* flex-wrap: wrap; */
 }
 .about h2{
-    /* justify-content: end; */
     position: absolute;
     margin-left: -22%;
     color: white;
     font-size: 0.4in;
-    /* align-items: flex-end; */
 }
 .naming-book{
     position: absolute;
@@ -36,16 +36,13 @@ body{
     background-color: white;
     line-height: 0.8cm;
     backdrop-filter: 5px;
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     padding: 3%;
     margin-top: -40%;
     margin-left: 42%;
     transform: rotate(-12deg);
     border-radius: 15% 15%;
-    /* margin-right: -12%; */
-    /* bo */
-    /* flex-wrap: wrap; */
+
 }
 .naming-book img{
     width: 5vw;
@@ -65,9 +62,8 @@ body{
     width: 60vw;
     height: 125vh;
     background-color: white;
-    opacity: 0.6;
+    opacity: 0.8;
     border-radius: 5%;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
     box-shadow: 12px 15px 12px rgb(63, 63, 148),12px 15px 12px rgb(63, 63, 148);
 }
 .review p{
@@ -101,10 +97,131 @@ body{
     margin-top: 18%;
 }
 
-@media  screen and(min-width:350px) and(max-width:857px){
+@media screen and (min-width:300px) and (max-width:950px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+        font-size: 0.7em;
+        /* overflow-x: hidden; */
+    }
     .about{
         display: block;
-        /* flex-wrap: wrap; */
     }
+    .container{
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+    .naming-book{
+        position: unset;
+        width: 85vw;
+        height: 85vw;
+        background-color: white;
+        line-height: 0.6cm;
+        backdrop-filter: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        padding: 3%;
+        margin-top: -20%;
+        margin-left: 2%;
+        transform: none;
+        border-radius: 15% 15%;
     
+    }
+    .image img{
+        border: 14px solid white;
+        width: 93%;
+        height: 40vh;
+        margin-bottom: 29%;
+        opacity: 0.5;
+    }
+    .review{
+        width: 90vw;
+        height: 85vh;
+        background-color: white;
+        opacity: 0.8;
+        border-radius: 5%;
+        box-shadow: 12px 15px 12px rgb(63, 63, 148),12px 15px 12px rgb(63, 63, 148);
+    }
+    .review p{
+        line-height: 0.4cm;
+        margin: 4%;
+    }
+    .about h2{
+        position: absolute;
+        margin-top: -120%;
+        margin-left: 25%;
+        color: white;
+        font-size: 1.5em;
+    }
+    .naming-book img{
+        width: 15vw;
+        height: 7vh;
+        border-radius:50% 50%;
+        border: 3px solid rgb(4, 4, 37);
+        margin-top: -28%;
+        margin-left: 37%;
+    }
+}
+@media screen and (min-width:750px) and (max-width:1300px){
+   body{
+    font-size: 1.2em;
+   }
+    .image img{
+        border: 14px solid white;
+        width: 90%;
+        height: 40vh;
+        margin-bottom: 20%;
+        opacity: 0.5;
+    }
+    .container{
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .naming-book{
+        position: unset;
+        width: 70vw;
+        height: 55vw;
+        background-color: white;
+        line-height: 0.6cm;
+        backdrop-filter: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        padding: 3%;
+        margin-top: -20%;
+        margin-left: 8%;
+        transform: none;
+        border-radius: 15% 15%;
+    
+    }
+    .naming-book img{
+        width: 15vw;
+        height: 7vh;
+        border-radius:50% 50%;
+        border: 3px solid rgb(4, 4, 37);
+        margin-top: -10%;
+        margin-left: 37%;
+    }
+    .review p{
+        line-height: 0.6cm;
+        margin: 4%;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        gap: 1cm;
+        margin-top: 12%;
+    }
+    .review{
+        width: 90vw;
+        height: 105vh;
+        background-color: white;
+        opacity: 0.8;
+        border-radius: 5%;
+        box-shadow: 12px 15px 12px rgb(63, 63, 148),12px 15px 12px rgb(63, 63, 148);
+    }
+    .about h2{
+        position: absolute;
+        margin-top: -75%;
+        margin-left: 25%;
+        color: white;
+        font-size: 1.5em;
+    }
 }
