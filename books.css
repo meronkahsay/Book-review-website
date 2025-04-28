@@ -2,9 +2,11 @@ body {
     margin: auto;
     text-align: center;
     color: white;
-
-    background-image: linear-gradient(#212A31, #2E3944);
+    /* background-image: linear-gradient(#212A31, #2E3944); */
+    background-color: #808080;
+    /* Neutral: White (#FFFFFF), Cream (#FFFDD0), Gray (#808080), Beige (#F5F5DC */
 }
+
 
 .backgroound-image {
     position: relative;
@@ -359,81 +361,158 @@ input:focus{
 .girl-with-loudingvoice:hover~#book-popup-eleven{
     visibility: visible;
 }
-/* }
-#book-popup-two {
-    position: absolute;
-    left: 50%;
-    top: 1%;
-    background-color: rgb(172, 171, 177);
-    width: 150px;
-    color: black;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s;
-    border-radius: 5px;
-    z-index: 10;
+@media only screen and (max-width: 430px) {
+
+        .backgroound-image {
+            height: auto; /* Let the height adjust naturally */
+            background-size: contain; /* Scale to fit the screen */
+        }
+        .backgroound-image img {
+            height: 91vh;
+            width: 90vw;
+            position: relative;
+        }
+        .all-books img {
+            width: 30vw; /* Make the books smaller for smaller screens */
+        }
+    
+        .born-a-crime {
+            top: 15%;
+            left: 8%;
+        }
+    
+        .power-of-habit {
+            top: 15%;
+            left: 28%;
+        }
+    
+        .home-going {
+            top: 15%;
+            left: 48%;
+        }
+    
+        .becoming {
+            top: 15%;
+            left: 68%;
+        }
+    
+        .alchemist {
+            top: 45%;
+            left: 8%;
+        }
+    
+        .liongaze {
+            top: 45%;
+            left: 28%;
+        }
+    
+        .my-cheese {
+            top: 45%;
+            left: 48%;
+        }
+    
+        .weep {
+            top: 45%;
+            left: 68%;
+        }
+    
+        .hands-maid {
+            top: 75%;
+            left: 8%;
+        }
+    
+        .dear-igeawel {
+            top: 75%;
+            left: 28%;
+        }
+    
+        .girl-with-loudingvoice {
+            top: 75%;
+            left: 48%;
+        }
+    
+        .coming {
+            top: 75%;
+            left: 68%;
+        }
+    
 }
-.liongaze:hover~#book-popup-five {
-    visibility: visible;
-    opacity: 1; */
-/* }
-.power-of-habit:hover~#book-popup-two {
-    visibility: visible;
-    opacity: 1;
-}
-.power-of-habit:hover~#book-popup-two {
-    visibility: visible;
-    opacity: 1;
-}
-.power-of-habit:hover~#book-popup-two {
-    visibility: visible;
-    opacity: 1;
-}
-.power-of-habit:hover~#book-popup-two {
-    visibility: visible;
-    opacity: 1;
-}
-.power-of-habit:hover~#book-popup-two {
-    visibility: visible;
-    opacity: 1;
-} */
-@media (max-width: 768px) {
-    .background-image img {
-      width: 70%;
-      height: auto;
+    @media only screen and (max-width: 750px) {
+        .backgroound-image {
+            background-size: contain; /* Scale the background image to fit within the screen */
+            height: auto; /* Let the height adjust based on the image */
+        }
+    
+        /* Adjust the book sizes and positions */
+        .born-a-crime {
+            top: 12%; /* Adjust the position relative to the shelf in the scaled image */
+            left: 8%; /* Adjust the horizontal alignment */
+            width: 12%; /* Scale the book width */
+        }
+    
+        .power-of-habit {
+            top: 12%;
+            left: 28%;
+            width: 12%;
+        }
+    
+        .home-going {
+            top: 12%;
+            left: 48%;
+            width: 12%;
+        }
+    
+        .becoming {
+            top: 12%;
+            left: 68%;
+            width: 12%;
+        }
+    
+        .alchemist {
+            top: 35%;
+            left: 8%;
+            width: 12%;
+        }
+    
+        .liongaze {
+            top: 35%;
+            left: 28%;
+            width: 12%;
+        }
+    
+        .my-cheese {
+            top: 35%;
+            left: 48%;
+            width: 12%;
+        }
+    
+        .weep {
+            top: 35%;
+            left: 68%;
+            width: 12%;
+        }
+    
+        .hands-maid {
+            top: 58%;
+            left: 8%;
+            width: 12%;
+        }
+    
+        .dear-igeawel {
+            top: 58%;
+            left: 28%;
+            width: 12%;
+        }
+    
+        .girl-with-loudingvoice {
+            top: 58%;
+            left: 48%;
+            width: 12%;
+        }
+    
+        #coming {
+            top: 58%;
+            left: 68%;
+            width: 12%;
+        }
     }
-    .background-image form {
-      right: 10%;
-      top: 3%;
-    }
-    .background-image h1 {
-      font-size: 36px;
-      padding: 8px 16px;
-    }
-    .book {
-      width: 90px;
-      height: 140px;
-    }
-    .popup {
-      font-size: 12px;
-      width: 140px;
-    }
-  }
-  @media (max-width: 480px) {
-    .background-image img {
-      width: 90%;
-      height: auto;
-    }
-    .background-image h1 {
-      font-size: 28px;
-      padding: 5px 10px;
-    }
-    .book {
-      width: 80px;
-      height: 120px;
-    }
-    .popup {
-      font-size: 11px;
-      width: 130px;
-    }
-  }

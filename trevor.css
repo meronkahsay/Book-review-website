@@ -1,411 +1,229 @@
-.first-insight,.second-insight,.third-insight,.fourth-insight{
+*{
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+      overflow-x: hidden;
+    background-image: linear-gradient(#2d3944, #343e49);
+    width: 100%;
+}
+
+.container h1{
+    font-family: "Merriweather";
+    font-size: 300%;
+    font-weight: bold;
+}
+.first-insight,.second-insight,.third-insight,.fourth-insight,.fifth-insight{
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-around;
+    margin-bottom: -7%;
+    color: white;
+}
+.number1,.number2,.number3,.number4,.number5{
+   font-size: 205px;
+   -webkit-text-stroke: 2px gray;
+   -webkit-text-fill-color: transparent;
+   align-content: center;
+   margin-top: -8%;
+ }
+   .number1,.number3,.number5{
+    margin-left: -19%;
+   }
+   .number2,.number4{
+    margin-left: 19%;
+   }
+.number1 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-clip: text;
+}
+.number2 p{
+    background-image: url(images/city-8206042_640.png);
+    background-size: cover;
+    background-clip: text;
+}
+.number3 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-size: contain;
+    background-clip: text;
+}
+.number4 p{
+    background-image: url(images/city-8206042_640.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+}
+.number5 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+}
+.independence h1+p,.rich-without-money h1 +p,.relationship h1 +p,.patriachy h1 +p,.power-of-language h1 +p{
+    color: #FFCC00;
+}
+.book-review{
+    background:url(https://i.pinimg.com/736x/59/e4/dc/59e4dc1c99e4b92f6cd7dbdc28953eb5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
     display: flex;
     justify-content: space-around;
-}
-.number-one, .number-two, .number-three,.number-four{
-    font-size: 205px;
-    -webkit-text-stroke: 2px gray;
-    -webkit-text-fill-color: transparent;
-    /* /* margin-bottom: 15%; */
-    margin-top: -9%;
-    
-    
-}
-.number-one, .number-three{
-    margin-left: -25%;
-}
-.number-two,.number-four{
-    margin-right: -25%;
-}
-.number-one p{
-    background-image: url(Images/flower5.avif);
-    /* background-repeat: no-repeat; */
-    background-clip: text;
-    background-size: cover;
-}
-
-.number-two p{
-background-image: url(Images/flower2.webp);
-background-size: contain;
-background-clip: text;
-}
-.number-three p{
-background-image: url(Images/flower5.avif);
-background-size: cover;
-background-clip: text;
-}
-
-.number-four p{
-background-image: url(Images/flower2.webp);
-background-size: contain;
-background-clip: text;
-
- }
- .container h3+p{
-    /* color: rgb(248, 245, 243); */
-    font-weight: bolder;
-    color:   rgb(221, 58, 17);
- }
- body{
-    font-family: "Poppins";
- }
- h3{
-    font-family: "Merriweather";
-    font-size: 200%;
-    
- }
- .power{
-    background-image: url(Images/newback.jpg);
-    background-repeat: no-repeat;
-    background-size: 55% 100%;
-    height: 98vh;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.5);
- }
- #books{
-    width: 100%;
     height: 100vh;
- }
- #first{
-    width: 4cm;
-    height: 5.5cm;
- }
- .shaping{
+    font-size: 0.7em;
+  
+}
+.noah-review {
+    font-size: 0.4in;
+    padding-top: 20%;
+    font-weight: bolder;
+    color: #9bc3e9;
+    place-items: center;
+    align-items: center;
+}
+.first-book{
+    border: 1px solid white;
+    width: 31vw;
+    height: 86vh;
+    margin-top: 4%;
+    border-radius: 12px;
+    /* padding: 1cm; */
+    color: black;
+    font-weight: 500;
+    transform: rotate(-15deg);
+    margin-left: -12%;
+}
+.picture1 img{
+    width: 8vw;
+    height: 15vh;
+}
+.review{
     display: flex;
-    gap: 3cm;
-    /* margin-top: 1cm; */
-    width: 20cm;
-    height: 7cm;
-    padding-top: 0.8cm;
-    padding-left: 0.8cm;
+    gap: 2cm;
+    padding: 0.6cm;
+    background-color: white;
+    border-radius: 12px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    border-radius: 20px;
-    /* justify-content: space-around; */
-    
- }
- .power-habits{
+}
+.about-author{
     display: flex;
-    gap: 15cm;
-    padding-top: 0.8cm;
-    /* justify-content: space-around; */
- }
- #summary{
-    color: rgb(221, 58, 17);
- }
- .author{
-    display: flex;
-    gap: 3cm;
-    margin-top: 1cm;
-    /* background-color: #2E3944; */
-    width: 20cm;
-    height: 8.7cm;
-    padding-top: 0.8cm;
-    padding-left: 0.8cm;
-    margin-top: -7%;
+    margin-bottom: 15%;
+    gap: 1cm;
+    padding: 0.6cm;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
- }
- #charles{
-    width: 4cm;
-    height: 4cm;
- }
- .articles{
+    background-color: rgb(227, 238, 248);
+}
+.other-books{
     display: flex;
-    gap: 4cm;
-    margin-top: 1cm;
-    /* background-color: #212A31; */
-    width: 20cm;
-    height: 6cm;
-    padding-top: 0.2cm;
-    padding-left: 0.8cm;
-    margin-top: -7%;
+    gap: 1cm;
+    padding: 0.6cm;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    border-radius: 20px;
- }
- .change{
+    background-color: white;
+    margin-top: -17%;
+}
+.review img{
+    width: 9vw;
+    height: 19vh;
+}
+.first-book h2{
+    color: #FFCC00;
+}
+.their-pictures{
     display: flex;
-    gap: 6cm;
-    margin-top: 1cm;
-    /* background-color: #2E3944; */
-    width: 20cm;
-    height: 5cm;
-    padding-top: 0.2cm;
-    padding-left: 0.8cm;
-    margin-top: -7%;
+    justify-content: space-around;
+    padding: 0.4cm;
+    border-radius: 12px;
+    background-color: rgb(227, 238, 248);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    border-radius: 20px;
- }
-.right{
-  /* background-color: black;  */
-  color: white;
-  width: 50%; 
-  height: 60vh;
-  padding-right: 0.5cm;
-  padding-bottom: 0.5cm;
-  /* padding-left: 1cm; */
-  /* margin-left: -7%; */
-  /* transform: rotate(-15deg); */
-  /* margin-top: 1cm; */
-  
-  /* padding-top: 0.6cm; */
-
 }
-.changing{
-    color: white;
-    text-align: center;
-  
-
-   /* place-content: center; */
-   /* align-content: center; */
-   /* padding-top: 17%; */
-    /* padding-left: 4cm; */
-    margin-left: 13%;
-    margin-top:10%;
+@media screen and (min-width: 320px) and (max-width: 950px){
+    body{
+        font-size: 0.9em;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .first-book{
+        display: grid;
+        width: 21vw;
+    height: 32vh;
+    }
+    .noah-review {
+        font-size: 0.2in;
+    }
+    .book-review{
+        display: block;
+        height: 140vh;
+    }
+    .first-book{
+        transform: none;
+        margin: 15%;
+    }
+    .first-insight,.second-insight,.third-insight,.fourth-insight,.fifth-insight{
+        display: block;
+        justify-content: unset;
+        margin-bottom: -2%;
+    }
+    .number1,.number3,.number5{
+        margin-left: 10%;
+        
+       }
+       .number2,.number4{
+        margin-left: 19%;
+       }
+       .container{
+        margin-top: 12%;
+       }
+       .number1,.number2,.number3,.number4,.number5{
+        margin-top: 0%;
+       }
+       .review{
+        gap: 1cm;
+    }
+    .other-books{
+        display: flex;
+        gap: 1cm;
+        padding: 0.6cm;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        background-color: white;
+        margin-top: -17%;
+    }
 }
-.changing h1{
-    font-family: "Merriweather";
-    font-size: 220%;
-}
-
-
-#card{
-    width: 15cm;
-    height: 15cm;
-}
-.buying{
-   display: flex;
-   gap: 1cm;
-}
-#get{
-   padding-bottom: 2%;
-   height: 2vh;
-   border-bottom: solid 2px;
-   width: 3.5cm;
-   color: rgb(221, 58, 17);
-   /* padding-top: -20px; */
-}
-#amazon{
-   width: 5cm;
-   height: 5cm;
-   /* padding-top: 3cm; */
-   /* padding-right: 3cm; */
-   border-radius: 100px;
-   margin-top: 4cm;
-}
-#prestige{
-   margin-top: 4cm;
-}
-#jumia{
-   margin-top: 4cm; 
-   border-radius: 250px;
-   width: 5cm;
-   height: 5cm;
-}
-@media screen and (min-width: 0px) and (max-width: 750px){
-   .first-insight,.second-insight,.third-insight,.fourth-insight{
-      display: flex;
-      justify-content: space-around;
-      display: grid;
-  }
-  .number-one, .number-two, .number-three,.number-four{
-      font-size: 205px;
-      -webkit-text-stroke: 2px gray;
-      -webkit-text-fill-color: transparent;
-      /* /* margin-bottom: 15%; */
-      margin-top: -9%;
-      
-      
-  }
-  .number-one, .number-three{
-      margin-left: -25%;
-  }
-  .number-two,.number-four{
-      margin-right: -25%;
-  }
-  .number-one p{
-      background-image: url(Images/flower5.avif);
-      /* background-repeat: no-repeat; */
-      background-clip: text;
-      background-size: cover;
-  }
-  
-  .number-two p{
-  background-image: url(Images/flower2.webp);
-  background-size: contain;
-  background-clip: text;
-  }
-  .number-three p{
-  background-image: url(Images/flower5.avif);
-  background-size: cover;
-  background-clip: text;
-  }
-  
-  .number-four p{
-  background-image: url(Images/flower2.webp);
-  background-size: contain;
-  background-clip: text;
-  
-   }
-   .container h3+p{
-      /* color: rgb(248, 245, 243); */
-      font-weight: bolder;
-      color:   rgb(221, 58, 17);
-   }
-   body{
-      font-family: "Poppins";
-   }
-   h3{
-      font-family: "Merriweather";
-      font-size: 250%;
-      
-   }
-   .power{
-      background-image: url(Images/back3.jpg);
-      background-repeat: no-repeat;
-      background-size: 55% 100%;
-      height: 98vh;
-      background-blend-mode: darken;
-      background-color: rgba(0, 0, 0, 0.5);
-      /* width: 100%; */
-   }
-   #books{
-      width: 100%;
-      height: 100vh;
-   }
-   #first{
-      width: 4cm;
-      height: 5.5cm;
-   }
-   .shaping{
-      display: flex;
-      gap: 3cm;
-      /* margin-top: 1cm; */
-      width: 20cm;
-      height: 7cm;
-      padding-top: 0.8cm;
-      padding-left: 0.8cm;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-      border-radius: 20px;
-      display: block;
-      
-   }
-   .power-habits{
-      display: flex;
-      gap: 15cm;
-      padding-top: 0.8cm;
-      /* justify-content: space-around; */
-   }
-   #summary{
-      color: rgb(221, 58, 17);
-   }
-   .author{
-      display: flex;
-      gap: 3cm;
-      margin-top: 1cm;
-      /* background-color: #2E3944; */
-      width: 20cm;
-      height: 8.7cm;
-      padding-top: 0.8cm;
-      padding-left: 0.8cm;
-      margin-top: -7%;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-   }
-   #charles{
-      width: 4cm;
-      height: 4cm;
-   }
-   .articles{
-      display: flex;
-      gap: 4cm;
-      margin-top: 1cm;
-      /* background-color: #212A31; */
-      width: 20cm;
-      height: 6cm;
-      padding-top: 0.2cm;
-      padding-left: 0.8cm;
-      margin-top: -7%;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-   }
-   .change{
-      display: flex;
-      gap: 6cm;
-      margin-top: 1cm;
-      /* background-color: #2E3944; */
-      width: 20cm;
-      height: 5cm;
-      padding-top: 0.2cm;
-      padding-left: 0.8cm;
-      margin-top: -7%;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-      border-radius: 20px;
-   }
-  .right{
-    /* background-color: black;  */
-    color: white;
-    width: 50%; 
-    height: 60vh;
-    padding-right: 0.5cm;
-   padding-bottom: 0.5cm;
-    /* padding-left: 1cm; */
-    /* margin-left: -7%; */
-    /* transform: rotate(-15deg); */
-    margin-top: 1cm;
-    
-    /* padding-top: 0.6cm; */
-  
-  }
-  .changing{
-      color: white;
-      text-align: center;
-    
-  
-     /* place-content: center; */
-     /* align-content: center; */
-     /* padding-top: 17%; */
-      /* padding-left: 4cm; */
-      margin-left: 13%;
-      margin-top:10%;
-  }
-  .changing h1{
-      font-family: "Merriweather";
-      font-size: 250%;
-  }
-  #visual{
-      /* margin-left: 5cm; */
-      /* place-items: center; */
-      /* height: 22cm; */
-      /* width: 15cm; */
-  }
-  #card{
-      width: 15cm;
-      height: 15cm;
-  }
-  .buying{
-     display: flex;
-     gap: 4cm;
-  }
-  #get{
-     padding-bottom: 2%;
-     height: 2vh;
-     border-bottom: solid 2px;
-     width: 3.5cm;
-     color: rgb(221, 58, 17);
-     /* padding-top: -20px; */
-  }
-  #amazon{
-     width: 5cm;
-     height: 5cm;
-     /* padding-top: 3cm; */
-     /* padding-right: 3cm; */
-     border-radius: 100px;
-     margin-top: 4cm;
-  }
-  #prestige{
-     margin-top: 4cm;
-  }
-  #jumia{
-     margin-top: 4cm; 
-     border-radius: 250px;
-     width: 5cm;
-     height: 5cm;
-  }
+@media screen and (min-width: 600px) and (max-width: 1120px){
+    body{
+        font-size: 0.6em;
+        overflow-x: hidden;
+    }
+    .first-insight,.second-insight,.third-insight,.fourth-insight,.fifth-insight{
+        flex: 1;
+        margin-bottom: 7%;
+        gap: 1cm;
+        justify-content:unset;
+    }
+    .first-book{
+        border: 1px solid white;
+        width: 28vw;
+        height: 40vh;
+        margin-top: 4%;
+        border-radius: 12px;
+        color: black;
+        font-weight: 500;
+        transform: rotate(-8deg);
+        margin-right: 10%;
+    }
+    .noah-review {
+        font-size: 0.2in;
+        padding-top: 20%;
+        font-weight: bolder;
+        color: #9bc3e9; 
+        align-items: self-start;
+    }
+    .review{
+        display: flex;
+        gap: 1cm;
+        padding: 0.6cm;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
 }
