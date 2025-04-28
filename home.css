@@ -1,0 +1,443 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: white;
+  height: auto;
+}
+
+h1 {
+  font-size: 400%;
+  font-family: "Merriweather";
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 350%;
+  font-family: "Merriweather";
+}
+
+nav {
+  top: 0;
+  background-image: linear-gradient(#212A31, #2E3944);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  width: 100vw;
+
+
+
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 120%;
+  font-weight: bolder;
+  margin: 1% 0%;
+
+}
+
+nav a:hover {
+  color: #ffbf00;
+
+}
+
+nav img {
+  width: 150px;
+}
+
+#group-name {
+  font-family: "Merriweather";
+  font-size: 400%;
+  color: #004d4d;
+  font-weight: bold;
+  text-align: center;
+  margin: 2% auto;
+}
+
+#quote-of-the-day {
+  color: #ffbf00;
+  text-align: center;
+  padding: 1%;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#quote-of-the-day h2 {
+  font-family: "Merriweather";
+  font-size: 200%;
+  font-weight: bold;
+  color: white;
+
+}
+
+#quote-of-the-day p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#quote-of-the-day img {
+  width: 60%;
+
+}
+
+#quote-btn {
+  margin-bottom: 2%;
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  color: #2E3944;
+  border-radius: 50px;
+
+}
+
+#quote-btn:hover {
+  background-color: #004d4d;
+  color: white;
+}
+
+.page-intro {
+  width: 100vw;
+  height: 70vh;
+
+  background-color: #006666;
+  background-image: repeating-linear-gradient(36deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 0px, transparent 2px);
+
+
+}
+
+.overview {
+  display: flex;
+  gap: 2%;
+  line-height: 2;
+  background-image: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 6px);
+}
+
+.overview>div {
+  width: 50%;
+}
+
+.heading h1 {
+  width: 60%;
+  margin: 15% 0;
+
+}
+
+.overview p {
+
+  font-size: 100%;
+  text-align: center;
+
+}
+
+.web-info {
+  text-align: center;
+  color: #212A31;
+
+
+
+}
+
+.reviews {
+  width: 50%;
+  text-align: center;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 10px;
+  color: #212A31;
+}
+
+.review {
+  display: none;
+}
+
+.review h3 {
+  font-size: 150%;
+}
+
+.review p {
+  font-style: italic;
+}
+
+.review.active {
+  display: block;
+}
+
+.book-covers {
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.book-covers-power img {
+  width: 30%;
+
+
+}
+
+.book-covers-power {
+  display: flex;
+  gap: 60px;
+  margin: 0 30% 0 40%;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+#like-section {
+  text-align: center;
+  margin-top: 0.5%;
+
+
+}
+
+#like-btn {
+  background-color: #ff4d6d;
+  color: white;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+#like-btn:hover {
+  background-color: #004d4d;
+  color: #ff4d6d;
+}
+
+#like-count {
+  font-size: medium;
+}
+
+footer {
+  background-image: linear-gradient(#212A31, #2E3944);
+  color: #ffbf00;
+  text-align: center;
+  padding: 1%;
+
+}
+
+.rating {
+  margin: 10px 0;
+}
+
+.rating i {
+  color: #FFCC00;
+  font-size: 24px;
+}
+
+.load-more-btn {
+  margin: 5% auto;
+  padding: 15px 30px;
+  background-color: #ffbf00;
+  color: #006666;
+  font-size: 18px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.load-more-btn:hover {
+  background-color: #004d4d;
+  color: white;
+}
+
+@media only screen and (max-width: 750px) {
+  #group-name{
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 170%;
+
+  }
+
+  p {
+    font-size: 50%;
+  }
+
+  h2 {
+    font-size: 70%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .heading{
+    text-align: center;
+  }
+
+  nav img {
+    width: 100px;
+  }
+ 
+  .page-intro {
+    height: auto;
+  }
+  .rating i{
+    font-size: 15px;
+  }
+  .overview {
+    flex-direction: column;
+  }
+
+  .overview > div {
+    width: 100vw;
+  }
+  .reviews {
+    width: 70vw;
+  }
+
+  .book-covers {
+    flex-wrap: wrap;
+  
+     
+  }
+.book-covers img{
+  width:100%;
+}
+  .book-covers-power {
+    flex-wrap: wrap;
+  }
+  .book-covers-power img{
+    width:90%;
+  }
+  .review h3{
+    font-size: 100%;
+
+  }
+  .heading h1{
+    width:100vw;
+  }
+
+}
+@media only screen and (min-width: 751px) and (max-width: 999px) {
+
+  h1 {
+    font-size: 250%;
+  }
+
+  p {
+    font-size: 120%;
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  nav img {
+    width: 120px;
+  }
+
+  .page-intro {
+
+    height: 60vh;
+  }
+  .heading h1{
+    width:100%;
+    margin: 30% auto;
+    line-height: 2.5;
+  }
+  .overview {
+    gap: 1%;
+  }
+
+  .reviews {
+    width: 70%;
+  }
+
+  .book-covers {
+    gap: 15px;
+    margin-right:50%;
+  }
+  .book-covers img{
+    width:60%;
+  }
+  .book-covers-power {
+    gap: 150px;
+    margin: 0 20%;
+  }
+
+}
+@media only screen and (min-width:1024px){
+  h1 {
+    font-size: 350%;
+  }
+
+  p {
+    font-size: 120%;
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+
+  nav {
+    justify-content: space-evenly;
+    font-size: 27px;
+  }
+
+  nav img {
+    width: 120px;
+  }
+
+  .page-intro {
+
+    height: 100vh;
+  }
+  .heading h1{
+    width:100%;
+    margin: 30% auto;
+    line-height: 2.5;
+  }
+  .overview {
+    gap: 1%;
+  }
+
+  .reviews {
+    width: 70%;
+  }
+  .book-covers {
+    gap: 15px;
+    margin-right:43%;
+  }
+  .book-covers img{
+    width:70%;
+  }
+  .book-covers-power {
+    gap: 120px;
+    margin: 0 30%;
+  }
+
+}
+

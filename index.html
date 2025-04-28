@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Review</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/1731d8bcda.js" crossorigin="anonymous"></script>
+    <link type="image/x-icon" rel="icon" href="images/visual (1).svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="group-name">Book Land</div>
+    <nav>
+        <img src="images/visual (1).svg" alt="Background images of books reviews ">
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="about.html">About Us</a>
+        <div id="like-section">
+            <button id="like-btn" type="button"><i class="fa-solid fa-heart"></i></button>
+            <span id="like-count">0 Likes</span>
+        </div>
+    </nav>
+    <div id="home">
+        <div class="page-intro">
+            <div class="overview">
+
+                <div>
+                    <section id="quote-of-the-day">
+                        <img src="images/bgg.jpeg" alt="Book review">
+                        <h2>Quote of the Day</h2>
+                        <p id="quote"><q>The struggle is not over, but you are more than what you think you are.</q>-
+                            Trevor Noah</p>
+                        <button id="quote-btn" onclick="changeQuote()" type="button">See Another Quote</button>
+
+                    </section>
+
+                </div>
+               
+              <div class="heading">
+                <h1>Navigating Journey Through Reading!</h1>
+               </div>
+            </div>
+           
+           
+        </div>
+        <div id="books" class="web-info">
+            <h1>Article Overviews</h1>
+            <h2>Born A Crime</h2>
+            <div class="book-covers">
+
+                <img src="images/cover-trevor.jpeg" alt="Book cover">
+                <img src="images/trevor-org.jpeg" alt="Book cover">
+                <img src="images/download.jpeg" alt="Book cover">
+            </div>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="reviews born-a-crime">
+                <div class="review fade active">
+                    <h3><i class="fa-solid fa-quote-left"></i> A BOOK TO READ NOW <i
+                            class="fa-solid fa-quote-right"></i></h3>
+                    <p>WALL STREET JOURNAL</p>
+                </div>
+                <div class="review fade">
+                    <h3><i class="fa-solid fa-quote-left"></i> Powerful, charming and clever <i
+                            class="fa-solid fa-quote-right"></i></h3>
+                    <p>THE TIMES</p>
+                </div>
+                <div class="review fade">
+                    <h3><i class="fa-solid fa-quote-left"></i> Witty and brilliant <i
+                            class="fa-solid fa-quote-right"></i></h3>
+                    <p>OPRAH MAGAZINE</p>
+                </div>
+                <div class="review fade">
+                    <h3><i class="fa-solid fa-quote-left"></i> A memoir with heft...this story soars <i
+                            class="fa-solid fa-quote-right"></i></h3>
+                    <p>PEOPLE, BEST NEW BOOKS</p>
+                </div>
+            </div>
+            <h2>The Power of Habit</h2>
+
+            <div class="book-covers-power">
+                <img src="images/power habit.jpg" alt="Book cover">
+                <img src="images/f9388e506ced31ec64b9bec2443b3cf5.jpg" alt=" Book cover">
+
+            </div>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="reviews power-of-habit">
+                <div class="review fade active">
+                    <h3><i class="fa-solid fa-quote-left"></i> Powerful in its elegant simplicity. <i
+                            class="fa-solid fa-quote-right"></i></h3>
+                    <p>Jim Collins</p>
+                </div>
+                <div class="review fade">
+                    <h3><i class="fa-solid fa-quote-left"></i> Just the right balance of seriousness and advice. <i
+                            class="fa-solid fa-quote-right"></i></h3>
+                    <p>The Economist</p>
+                </div>
+                <div class="review fade">
+                    <h3><i class="fa-solid fa-quote-left"></i> Absolutely fascinating. <i
+                            class="fa-solid fa-quote-right"></i></h3>
+                    <p>Wired</p>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn">Load More Books</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact us: narrativenavigators@akirachix.com</p>
+        <p>&copy; Book Lands</p>
+    </footer>
+    <script>
+        function changeQuote() {
+            const quotes = ["The Golden Rule of Habit Change: You can't extinguish a bad habit, you can only change it.","Language, even more than color, defines who you are to people.", " Small wins are a steady application of a small advantage.","We tell people to follow their dreams, but you can only dream of what you can imagine."];
+            document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+
+        };
+        let likeCount = 0;
+        document.getElementById('like-btn').addEventListener('click', function () {
+            likeCount++;
+            document.getElementById('like-count').innerText = likeCount + " Likes"
+        });
+
+    </script>
+<script src="index.js"></script>
+
+</body>
+
+</html>
