@@ -330,7 +330,8 @@ footer {
   }
   .book-covers-power img{
     width:40%;
-    margin-left:30%;
+    
+    margin-left:0%;
   }
   .review h3{
     font-size: 100%;
