@@ -63,7 +63,7 @@ body{
 .independence h1+p,.rich-without-money h1 +p,.relationship h1 +p,.patriachy h1 +p,.power-of-language h1 +p{
     color: #FFCC00;
 }
-style #like-section {
+ #like-section {
     text-align: center;
     margin-top: 0.5%;
   }
@@ -83,7 +83,8 @@ style #like-section {
   #like-count {
     font-size: medium;
     color: white;
-  }a{
+  }
+  a{
     text-decoration: none;
     color:white;
   }
@@ -169,6 +170,7 @@ footer {
     padding:3%;
     width:30%;
     border-radius: 50px;
+    border-color: transparent;
   }
 @media screen and (min-width: 320px) and (max-width: 950px){
     body{
@@ -252,15 +254,22 @@ footer {
         width: 16vw;
         height: 15vh;
     }
+    nav {
+        gap: 5%;
+        font-size: 0.6em;
+    }
+
     footer {
   background-image: linear-gradient(#212A31, #2E3944);
   color: white;
   justify-content:space-between;
+  position: absolute;
 }
 .footer-content{
+    padding-top: 12%;
   line-height: 3;
   font-size: 120%;
-  display:flex;
+  display:block;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -270,8 +279,11 @@ footer {
 }
 .footer-nav{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  gap: 0.5cm;
+  font-size: 0.9em;
+  margin-left: -10%;
 }
 .location{
   line-height: 1;
@@ -294,7 +306,32 @@ font-size: large;
   padding:3%;
   width:30%;
   border-radius: 50px;
+  border-color: transparent;
 }
+#like-section {
+    text-align: center;
+    margin-top: 0.5%;
+  }
+  #like-btn {
+    background-color: #FF4D6D;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px 3px ;
+    cursor: pointer;
+  }
+  #like-btn:hover {
+    background-color: #004D4D;
+    color: #FF4D6D;
+  }
+  #like-count {
+    font-size: medium;
+    color: white;
+  }
+  .fifth-insight{
+    margin-bottom: 12%;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1120px){
     body{
