@@ -7,7 +7,7 @@
     <title>Books Review</title>
     <link rel="stylesheet" href="home.css">
     <script src="https://kit.fontawesome.com/1731d8bcda.js" crossorigin="anonymous"></script>
-    <link type="image/x-icon" rel="icon" href="images/visual (1).svg">
+    <link type="image/x-icon" rel="icon" href="images/visual (1).svg" sizes=" 180x180">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,9 +16,12 @@
 </head>
 
 <body>
-    <div id="group-name">Book Land</div>
+    <section class="top-heading">
+    <div id="group-name"><p>Book Land</p>   </div>
+<p>Where young minds share powerful reflections!</p>
+</section>
     <nav>
-        <img src="images/visual (1).svg" alt="Background images of books reviews ">
+        <img class="visual-img" src="images/visual (1).svg" alt="Background images of books reviews ">
         <a href="index.html">Home</a>
         <a href="books.html">Books</a>
         <a href="blogsPage.html">Blogs</a>
@@ -31,10 +34,9 @@
     <div id="home">
         <div class="page-intro">
             <div class="overview">
-
-                <div>
+                <img src="images/cover-page.jpg" alt="Book review">
                     <section id="quote-of-the-day">
-                        <img src="images/bgg.jpeg" alt="Book review">
+                       
                         <h2>Quote of the Day</h2>
                         <p id="quote"><q>The struggle is not over, but you are more than what you think you are.</q>-
                             Trevor Noah</p>
@@ -42,16 +44,83 @@
 
                     </section>
 
-                </div>
-               
-              <div class="heading">
-                <h1>Navigating Journey Through Reading!</h1>
-               </div>
+        
+
+                 
             </div>
-           
-           
+            <div class="heading">
+                <h1>Navigating Journey Through Reading!</h1>
+            </div>
+
+
         </div>
-        <div id="books" class="web-info">
+
+            <div class="main-page">
+                <section class="book-section" id="born-a-crime">
+                    <h2>Born a Crime</h2>
+                    <div class="reviews">
+                        <div class="review active">“This book gave me a new perspective on South Africa's history.”
+                        </div>
+                        <div class="review">“Trevor’s humor mixed with deep insights is truly captivating.”</div>
+                        <div class="review">“I felt connected to the stories of resilience and survival.”</div>
+                    </div>
+                    <div class="review-controls">
+                        <button class="prev-btn">‹</button>
+                        <button class="next-btn">›</button>
+                    </div>
+                    <button class="like-btn" onclick="likeReview('born-a-crime')">Like</button>
+                    <div id="born-a-crime-like-count">Likes: 0</div>
+                    <div class="user-rating">
+                        <span data-value="1">★</span>
+                        <span data-value="2">★</span>
+                        <span data-value="3">★</span>
+                        <span data-value="4">★</span>
+                        <span data-value="5">★</span>
+                    </div>
+                </section>
+                <div class="third-cover"> 
+                    <img id="first-cover" src="images/cover-trevor.jpeg" alt="Book cover">
+                    <img id="second-born-cover" src="images/trevor-org.jpeg"alt="Book cover" >
+                    <img id="third-born-cover" src="images/trevorbokk.jpg">
+                </div>
+    
+            </div>
+            <div class="main-page">
+                <section class="book-section" id="power-of-habit">
+                    <h2>The Power of Habit</h2>
+                    <div class="reviews">
+                        <div class="review active">“Charles Duhigg simplifies complex psychology into daily actions.”
+                        </div>
+                        <div class="review">“Helped me recognize and change some of my habits.”</div>
+                        <div class="review">“Well-researched and easy to understand.”</div>
+                    </div>
+                    <div class="review-controls">
+                        <button class="prev-btn">‹</button>
+                        <button class="next-btn">›</button>
+                    </div>
+                    <button class="like-btn" onclick="likeReview('power-of-habit')">Like</button>
+                    <div id="power-of-habit-like-count">Likes: 0</div>
+                    <div class="user-rating">
+                        <span data-value="1">★</span>
+                        <span data-value="2">★</span>
+                        <span data-value="3">★</span>
+                        <span data-value="4">★</span>
+                        <span data-value="5">★</span>
+                    </div>
+                </section>
+                <div class="second-cover"> 
+                    <img id="born-of-habit" src="images/Power of habit (1)-01.svg">
+                    <img id="second-cover" src="images/power habit.jpg" alt="Book cover">
+                    <img id="born-of-habit-logo" src="images/visual (1).svg">
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+
+      
+        <!-- <div id="books" class="web-info">
             <h1>Article Overviews</h1>
             <h2>Born A Crime</h2>
             <div class="book-covers">
@@ -126,16 +195,98 @@
                 </div>
             </div>
             <button type="button" class="load-more-btn"><a href="books.html">Load More Books</a></button>
-        </div>
-    </div>
+        </div> -->
 
     <footer>
-        <p>Contact us: narrativenavigators@akirachix.com</p>
-        <p>&copy; Book Lands</p>
+        <div class="footer-content">
+        <div class="footer-nav">
+            <img class="visual-img" src="images/visual (1).svg" alt="Background images of books reviews ">
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+        <div class="location">
+            <p>Where you can find us</p>
+            <p>Nairobi, Kenya. 616 Korongo Road</p>
+            <img src="images/map.jpeg">
+
+        </div>
+        <div class="mailbox">
+            <label for="review">Get the next review straight to your mailbox.</label><br>
+            <input id="review" aria-placeholder="Enter your email here *" placeholder="Enter your email here *"><br>
+            <a href="mailto:meronteklehaymanotgebru@gmail.com"><button id="mailbox" type="submit">Join</button></a>
+
+        </div>
+        <div class="socials">
+            <p>Follow us on</p>
+        <a href="https://github.com/akirachix"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/AkiraChix/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/akirachix/posts/?feedView=all"><i
+                class="fa-brands fa-linkedin"></i></a>
+            </div>
+    </div>
+        <section class="copy-right">
+            
+         
+            <p>Contact us: narrativenavigators@akirachix.com</p>
+            <p>&copy; Book Lands</p>
+        </section>
     </footer>
     <script>
+        const reviewsBornACrime = document.querySelectorAll('#born-a-crime .review');
+        const reviewsPowerOfHabit = document.querySelectorAll('#power-of-habit .review');
+        let currentReviewBornACrime = 0;
+        let currentReviewPowerOfHabit = 0;
+
+        function showReview(book, index) {
+            const reviews = book === 'born-a-crime' ? reviewsBornACrime : reviewsPowerOfHabit;
+            reviews.forEach((review, i) => {
+                review.classList.remove('active');
+                if (i === index) review.classList.add('active');
+            });
+        }
+
+        function updateReview(book, direction) {
+            if (book === 'born-a-crime') {
+                currentReviewBornACrime = (currentReviewBornACrime + direction + reviewsBornACrime.length) % reviewsBornACrime.length;
+                showReview('born-a-crime', currentReviewBornACrime);
+            } else {
+                currentReviewPowerOfHabit = (currentReviewPowerOfHabit + direction + reviewsPowerOfHabit.length) % reviewsPowerOfHabit.length;
+                showReview('power-of-habit', currentReviewPowerOfHabit);
+            }
+        }
+
+        document.querySelectorAll('.prev-btn')[0].addEventListener('click', () => updateReview('born-a-crime', -1));
+        document.querySelectorAll('.next-btn')[0].addEventListener('click', () => updateReview('born-a-crime', 1));
+        document.querySelectorAll('.prev-btn')[1].addEventListener('click', () => updateReview('power-of-habit', -1));
+        document.querySelectorAll('.next-btn')[1].addEventListener('click', () => updateReview('power-of-habit', 1));
+
+        function likeReview(bookId) {
+            let count = localStorage.getItem(bookId + '-likes') || 0;
+            count++;
+            localStorage.setItem(bookId + '-likes', count);
+            document.getElementById(bookId + '-like-count').innerText = `Likes: ${count}`;
+        }
+
+        window.onload = () => {
+            document.getElementById('born-a-crime-like-count').innerText = `Likes: ${localStorage.getItem('born-a-crime-likes') || 0}`;
+            document.getElementById('power-of-habit-like-count').innerText = `Likes: ${localStorage.getItem('power-of-habit-likes') || 0}`;
+        }
+
+        document.querySelectorAll('.user-rating').forEach(ratingDiv => {
+            const stars = ratingDiv.querySelectorAll('span');
+            stars.forEach((star, idx) => {
+                star.addEventListener('click', () => {
+                    stars.forEach((s, i) => {
+                        s.classList.toggle('selected', i <= idx);
+                    });
+                });
+            });
+        });
+
         function changeQuote() {
-            const quotes = ["The Golden Rule of Habit Change: You can't extinguish a bad habit, you can only change it.","Language, even more than color, defines who you are to people.", " Small wins are a steady application of a small advantage.","We tell people to follow their dreams, but you can only dream of what you can imagine."];
+            const quotes = ["The Golden Rule of Habit Change: You can't extinguish a bad habit, you can only change it.", "Language, even more than color, defines who you are to people.", " Small wins are a steady application of a small advantage.", "We tell people to follow their dreams, but you can only dream of what you can imagine."];
             document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
 
         };
@@ -146,7 +297,21 @@
         });
 
     </script>
-<script src="index.js"></script>
+    <script src="index.js"></script>
+    <script>
+        let heading = document.querySelector(".heading");
+        let text = heading.innerText;
+        heading.innerText = "";
+        let i = 0;
+        function handWritten() {
+            if (i < text.length) {
+                heading.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(handWritten, 150);
+            }
+        }
+        window.onload = handWritten;
+    </script>
 
 </body>
 
