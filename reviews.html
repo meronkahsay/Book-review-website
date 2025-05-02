@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reviewstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Reviews</title>
+</head>
+<body>
+  <nav>
+    <img class="visual-img" src="images/visual (1).svg" alt="Background images of books reviews ">
+    <a href="index.html">Home</a>
+    <a href="books.html">Books</a>
+    <a href="blogsPage.html">Blogs</a>
+    <a href="aboutus.html">About Us</a>
+    <div id="like-section">
+        <button id="like-btn" type="button"><i class="fa-solid fa-heart"></i></button>
+        <span id="like-count">0 Likes</span>
+    </div>
+</nav>
+    <div class="heading">
+        <p>“The process of self-invention is never-ending;<br>
+            a reader, like children, are always growing into their gifts.<br> (Susan Larson in a "Times-Picayune" book review.” )</p>
+    </div>
+  <div class="header">
+    <div>
+    <img src="./queenImages/noahtrevor.jpg">
+  </div>
+  <div class="bornACrime">
+    <p class="credit">Photo Source:Istock</p>
+    <p>Born a Crime: Stories from a South African Childhood" is a memoir by South African comedian and former host of "The Daily Show," Trevor Noah. 
+        The book chronicles Noah's upbringing in apartheid South Africa, focusing on the mixed race identity he was born into and the challenges he faced 
+        while navigating a
+         racially divided society. It also explores the strong bond he had with his mother, Patience, and her role in shaping his life.</p>
+         <a href="./review.html">
+          <button type="button">READ BOOK REVIEW</button>
+         </a>
+  </div>
+  </div> 
+  <div class="powerofHabit">
+    <div>
+        <p class="credit">Photo Source:Pinterest</p>
+    <p>The Power of Habit," a 2012 book by Charles Duhigg, explores how habits are formed and how they can be changed.
+         The book argues that understanding the "habit loop" of cue, routine, and reward can help individuals, organizations,
+          and even societies improve their lives. Duhigg's work has become a popular resource for 
+        self-improvement and organizational change, drawing on scientific research and real-world examples to illustrate his theories. </p>
+        <a href="./habits.html"><button type="button">READ BOOK REVIEW</button></a>
+    </div>
+        <div>
+    <img src="./queenImages/The power of HABIT ✨.jpeg">
+        </div>
+  </div>
+  </div>
+  <footer>
+    <div class="footer-content">
+    <div class="footer-nav">
+        <img class="visual-img" src="images/visual (1).svg" alt="Background images of books reviews ">
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="aboutus.html">About Us</a>
+    </div>
+    <div class="location">
+        <p>Where you can find us</p>
+        <p>Nairobi, Kenya. 616 Korongo Road</p>
+        <img src="queenImages/map.jpeg">
+    </div>
+    <div class="mailbox">
+        <label for="review">Get the next review straight to your mailbox.</label><br>
+        <input id="review" aria-placeholder="Enter your email here *" placeholder="Enter your email here *"><br>
+        <a href="mailto:meronteklehaymanotgebru@gmail.com"><button id="mailbox" type="submit">Join</button></a>
+    </div>
+    <div class="socials">
+        <p>Follow us on</p>
+    <a href="https://github.com/akirachix"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.facebook.com/AkiraChix/"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/company/akirachix/posts/?feedView=all"><i
+            class="fa-brands fa-linkedin"></i></a>
+        </div>
+</div>
+    <section class="copy-right">
+        <p>Contact us: narrativenavigators@akirachix.com</p>
+        <p>&copy; Book Lands</p>
+    </section>
+</footer>
+<script>
+  let likeCount = 0;
+          document.getElementById('like-btn').addEventListener('click', function () {
+              likeCount++;
+              document.getElementById('like-count').innerText = likeCount + " Likes"
+          });
+           </script>
+</body>
+</html>
