@@ -39,7 +39,7 @@ body{
     color: #fff;
     gap: 15px;
     background: rgb(168, 162, 168);
-    margin-right: 7cm;
+    /* margin-right: 7cm; */
 }
 .ushi img{
     width: 100px;
@@ -106,7 +106,7 @@ body{
     color: #fff;
     gap: 15px;
     background: rgb(168, 162, 168); 
-    margin-right: 7cm;
+    /* margin-right: 7cm; */
 
 }
 .mercyline img{
@@ -172,7 +172,7 @@ body{
     color: #fff;
     gap: 15px;
     background: rgb(168, 162, 168); 
-    margin-right: 7cm;
+    /* margin-right: 7cm; */
 
 }
 .linn img{
@@ -239,7 +239,7 @@ body{
     color: #fff;
     gap: 15px;
     background: rgb(168, 162, 168);
-    margin-right: 7cm;
+    /* margin-right: 7cm; */
 
 }
 .queen img{
@@ -680,5 +680,3 @@ h2{
     margin-left: 1cm;
   }
 }
-
- 
