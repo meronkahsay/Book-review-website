@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bornACrime.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Review</title>
+</head>
+<body>
+    <nav>
+        <img class="visual-img" src="images/visual (1).svg" alt="Background images of books reviews ">
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="blogsPage.html">Blogs</a>
+        <a href="aboutus.html">About Us</a>
+        <div id="like-section">
+            <button id="like-btn" type="button"><i class="fa-solid fa-heart"></i></button>
+            <span id="like-count">0 Likes</span>
+        </div>
+    </nav>
+    <div class="author">
+        <div class="aboutUs">
+        <h1>About the author</h2>
+        <div class="aboutAuthor">
+            <img src="./queenImages/tresor.jpeg">
+            <p>Trevor Noah</p>
+        </div>
+        <p class="trevor">Trevor Noah is a South African comedian, writer, producer, political commentator, 
+            actor, and television host. He was the host of The Daily Show, an American late-night talk show 
+            and satirical news program on Comedy Central, from 2015 to 2022. Noah has won various awards,
+             including two Primetime Emmy Awards</p>
+        <hr id="line">
+            <p class="otherBooks">Other Books</p>
+            <div class="otherBoooks">
+                <img src="./queenImages/uncut.jpg">
+                <img src="./queenImages/it's trevoh.jpeg">
+
+        </div>
+    </div>
+        <div class="trevorreview">
+            <img src="./queenImages/A cRIME.jpeg">
+            <p>In Trevor Noah’s book ‘Born a Crime’, he narrates his stories from South Africa<br>
+                pre and post-apartheid. Every chapter focuses on a specific theme from his child<br>hood
+                in a humorous way including his relationship with his mum, racism, finding <br>his
+                identity, domestic violence, family dynamics, and  complexities of being raised <br>in a divided society.</p>
+                <h1>OUR THOUGHTS</h1>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+        <div class="footer-nav">
+            <img class="visual-img" src="images/visual (1).svg" alt="Background images of books reviews ">
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+        <div class="location">
+            <p>Where you can find us</p>
+            <p>Nairobi, Kenya. 616 Korongo Road</p>
+            <img src="queenImages/map.jpeg">
+        </div>
+        <div class="mailbox">
+            <label for="review">Get the next review straight to your mailbox.</label><br>
+            <input id="review" aria-placeholder="Enter your email here *" placeholder="Enter your email here *"><br>
+            <a href="mailto:meronteklehaymanotgebru@gmail.com"><button id="mailbox" type="submit">Join</button></a>
+        </div>
+        <div class="socials">
+            <p>Follow us on</p>
+        <a href="https://github.com/akirachix"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/AkiraChix/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/akirachix/posts/?feedView=all"><i
+                class="fa-brands fa-linkedin"></i></a>
+            </div>
+    </div>
+        <section class="copy-right">
+            <p>Contact us: narrativenavigators@akirachix.com</p>
+            <p>&copy; Book Lands</p>
+        </section>
+    </footer>
+    <script>
+        let likeCount = 0;
+                document.getElementById('like-btn').addEventListener('click', function () {
+                    likeCount++;
+                    document.getElementById('like-count').innerText = likeCount + " Likes"
+                });
+                 </script>
+</body>
+</html>
