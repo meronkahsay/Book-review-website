@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power of Habits</title>
     <link rel="stylesheet" href="power.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,15 +16,33 @@
 
 <body>
     <div class="power">
-        <!-- <img src="Images/back3.jpg" id="books"> -->
         <div class="power-habits">
+            <nav>
+                <img class="visual-img" src="Images/2.svg" alt="Background images of books reviews " id="visual-rev">
+                <a href="index.html">Home</a>
+                <a href="books.html">Books</a>
+                <a href="blogsPage.html">Blogs</a>
+                <a href="aboutus.html">About Us</a>
+                <div id="like-section">
+                    <button id="like-btn" type="button"><i class="fa fa-heart"></i></button>
+                    <span id="like-count">0 Likes</span>
+                </div>
+            
+                <script>
+                    let likeCount = 0;
+                    document.getElementById('like-btn').addEventListener('click', function () {
+                        likeCount++;
+                        document.getElementById('like-count').innerText = likeCount + " Likes"
+                    }); </script>
+            </nav>
+        </div>
             <div class="changing">
                 <img src="Images/2.svg" id="visual">
                 <h1>THE POWER OF HABIT</h1>
                 <p>Why we do what we do and how to change</p>
                 
             </div>
-            <div class="right">
+            <!-- <div class="right">
                 <div class="shaping">
                     <div>
                         <img src="Images/power.jpg" id="first">
@@ -61,8 +80,8 @@
                         <p>"How Venture Capitalists Are Deforming Capitalism",<br> The New Yorker, 23 November 2020.</p>
                     </div>
                 </div>
-                </div>
-            </div>
+                </div> -->
+            <!-- </div> -->
         </div>
     </div>
     <div class="container">
@@ -162,6 +181,39 @@
        <a href="https://prestigebookshop.com/product/power-of-habit-the/"><img src="Images/prestige.jpeg" id="prestige"></a> 
       <a href="https://www.jumia.co.ke/the-power-of-habit-by-charles-duhigg-jumia-books-mpg8340564.html?srsltid=AfmBOoqJH18L1xWqrWRYZbrMjgfjoRSriz_gOr1XlW7jGrH-rnH53Hlj"><img src="Images/jumia.png" id="jumia"></a> 
     </div>
+
+    <footer>
+        <div class="footer-content">
+        <div class="footer-nav">
+            <img class="visual-img" src="Images/visual (2).svg" alt="Background images of books reviews ">
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+        <div class="location">
+            <p>Where you can find us</p>
+            <p>Nairobi, Kenya. 616 Korongo Road</p>
+            <img src="Images/map.jpeg">
+        </div>
+        <div class="mailbox">
+            <label for="review">Get the next review straight to your mailbox.</label><br>
+            <input id="review" aria-placeholder="Enter your email here *" placeholder="Enter your email here *"><br>
+            <a href="mailto:meronteklehaymanotgebru@gmail.com"><button id="mailbox" type="submit">Join</button></a>
+        </div>
+        <div class="socials">
+            <p>Follow us on</p>
+        <a href="https://github.com/akirachix"><i class="fa fa-github"></i></a>
+        <a href="https://www.facebook.com/AkiraChix/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/akirachix/posts/?feedView=all"><i
+                class="fa fa-linkedin"></i></a>
+            </div>
+    </div>
+        <section class="copy-right">
+            <p>Contact us: narrativenavigators@akirachix.com</p>
+            <p>&copy; Book Lands</p>
+        </section>
+    </footer>
     </div>
 </body>
 
