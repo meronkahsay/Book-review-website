@@ -39,8 +39,8 @@ background-size: contain;
 background-clip: text;
 
  }
- .container h3+p{
-    font-weight: bolder;
+ .container h4{
+    /* font-weight: bolder; */
     color:   rgb(221, 58, 17);
  }
  body{
@@ -323,12 +323,7 @@ background-clip: text;
  .all{
    margin-left: 4cm;
  }
- /* <script>
- let likeCount = 0;
-         document.getElementById('like-btn').addEventListener('click', function () {
-             likeCount++;
-             document.getElementById('like-count').innerText = likeCount + " Likes"
-         }); </script> */
+
 @media screen and (min-width: 350px) and (max-width: 1000px){
    .first-insight,.second-insight,.third-insight,.fourth-insight{
       display: flex;
@@ -715,23 +710,16 @@ background-clip: text;
     height: 120vh;
     padding-right: 0.5cm;
    padding-bottom: 0.5cm;
-    /* padding-left: 1cm; */
-    /* margin-left: -7%; */
-    /* transform: rotate(-15deg); */
+ 
+   
     margin-top: 1cm;
     
-    /* padding-top: 0.6cm; */
   
   }
   .changing{
       color: white;
       text-align: center;
-    
-  
-     /* place-content: center; */
-     /* align-content: center; */
-     /* padding-top: 17%; */
-      /* padding-left: 4cm; */
+   
       margin-left: 13%;
       margin-top:10%;
   }
@@ -743,12 +731,8 @@ background-clip: text;
   .changing p{
    margin-left: -1cm;
   }
-  #visual{
-      /* margin-left: 5cm; */
-      /* place-items: center; */
-      /* height: 22cm; */
-      /* width: 15cm; */
-  }
+ 
+  
   #card{
       width: 15cm;
       height: 15cm;
@@ -756,7 +740,7 @@ background-clip: text;
   }
   .buying{
      display: flex;
-     /* gap: 4cm; */
+     
      display: block;
   }
   #get{
@@ -765,13 +749,13 @@ background-clip: text;
      border-bottom: solid 2px;
      width: 3.5cm;
      color: rgb(221, 58, 17);
-     /* padding-top: -20px; */
+    
+     
   }
   #amazon{
      width: 5cm;
      height: 5cm;
-     /* padding-top: 3cm; */
-     /* padding-right: 3cm; */
+   
      border-radius: 100px;
      margin-top: 2cm;
      margin-left: 2cm;
@@ -794,13 +778,13 @@ background-clip: text;
       justify-content: space-around;
       display: block;
 
-      /* display: grid; */
+    
   }
   .number-one, .number-two, .number-three,.number-four{
       font-size: 205px;
       -webkit-text-stroke: 2px gray;
       -webkit-text-fill-color: transparent;
-      /* /* margin-bottom: 15%; */
+   
       margin-top: -9%;
       
       
@@ -834,7 +818,7 @@ background-clip: text;
   }
   .number-one p{
       background-image: url(Images/flower5.avif);
-      /* background-repeat: no-repeat; */
+    
       background-clip: text;
       background-size: cover;
       margin-left: 3cm;
@@ -860,7 +844,7 @@ background-clip: text;
   
    }
    .container h3+p{
-      /* color: rgb(248, 245, 243); */
+    
       font-weight: bolder;
       color:   rgb(221, 58, 17);
       margin-top: 4cm;
@@ -884,8 +868,7 @@ background-clip: text;
       height: 98vh;
       background-blend-mode: darken;
       background-color: rgba(0, 0, 0, 0.5);
-      /* width: 100%; */
-      /* background-size: cover; */
+   
    }
    #books{
       width: 100%;
@@ -910,10 +893,10 @@ background-clip: text;
    }
    .power-habits{
       display: flex;
-      /* gap: 15cm; */
+     
       padding-top: 0.8cm;
       display: block;
-      /* justify-content: space-around; */
+     
    }
    #summary{
       color: rgb(221, 58, 17);
@@ -922,12 +905,12 @@ background-clip: text;
       display: flex;
       gap: 3cm;
       margin-top: 2cm;
-      /* background-color: #2E3944; */
+   
       width: 15cm;
       height: 8.7cm;
       padding-top: 3cm;
       padding-left: 2cm;
-      /* margin-top: -9%; */
+    
       box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       display: block;
    }
@@ -938,8 +921,7 @@ background-clip: text;
    .articles{
       display: flex;
       gap: 4cm;
-      /* margin-top: 1cm; */
-      /* background-color: #212A31; */
+    
       width: 15cm;
       height: 6cm;
       padding-top: 1cm;
@@ -952,7 +934,7 @@ background-clip: text;
       display: flex;
       gap: 6cm;
       margin-top: 1cm;
-      /* background-color: #2E3944; */
+    
       width: 20cm;
       height: 5cm;
       padding-top: 1cm;
@@ -968,23 +950,16 @@ background-clip: text;
     height: 120vh;
     padding-right: 0.5cm;
    padding-bottom: 0.5cm;
-    /* padding-left: 1cm; */
-    /* margin-left: -7%; */
-    /* transform: rotate(-15deg); */
+    
     margin-top: 1cm;
     
-    /* padding-top: 0.6cm; */
+  
   
   }
   .changing{
       color: white;
       text-align: center;
-    
-  
-     /* place-content: center; */
-     /* align-content: center; */
-     /* padding-top: 17%; */
-      /* padding-left: 4cm; */
+   
       margin-left: 13%;
       margin-top:10%;
   }
@@ -996,12 +971,8 @@ background-clip: text;
   .changing p{
    margin-left: -5cm;
   }
-  #visual{
-      /* margin-left: 5cm; */
-      /* place-items: center; */
-      /* height: 22cm; */
-      /* width: 15cm; */
-  }
+  
+  
   #card{
       width: 15cm;
       height: 15cm;
@@ -1009,7 +980,7 @@ background-clip: text;
   }
   .buying{
      display: flex;
-     /* gap: 4cm; */
+    
      display: block;
   }
   #get{
@@ -1018,13 +989,12 @@ background-clip: text;
      border-bottom: solid 2px;
      width: 3.5cm;
      color: rgb(221, 58, 17);
-     /* padding-top: -20px; */
+     
   }
   #amazon{
      width: 5cm;
      height: 5cm;
-     /* padding-top: 3cm; */
-     /* padding-right: 3cm; */
+   
      border-radius: 100px;
      margin-top: 2cm;
      margin-left: 2cm;
