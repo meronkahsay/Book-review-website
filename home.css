@@ -188,46 +188,9 @@ position: absolute;
 #born-of-habit-logo{
   left: 738%;
   width: 45vw;
-  bottom: 20%;
+  bottom: 35%;
 }
-/* .book-covers img{
-  width:20%;
-} */
-/* .aligned-page{
-  display:flex;
-  justify-content: space-between;
-  width:100%;
-  height:80%;
 
-} */
-/* 
-#first-cover{
-  width:20vw;
-
-
-}
-#second-cover{
-  position: absolute;
-  width:15vw;
-}
-.second-cover{
-  position: absolute;
-  top:5%;
-  left:60%;
-}
-#third-cover{
-  width:10vw;
-  margin:30%;
- 
-}
-.third-cover{
-  position: absolute;
-  top:10%;
-  left:100%;
-}
-.first-cover{
-  position: relative;
-} */
 .book-section {
   margin: 20px 0px;
   background-color: white;
@@ -235,13 +198,9 @@ position: absolute;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 20px;
   width:50vw;
-  /* text-align: center; */
+
 }
-/* .book-covers
-{
-position: relative;
-margin-left:10%;
-width:20%; */
+
 
 
 .review {
@@ -292,78 +251,6 @@ width:20%; */
 .user-rating span:hover ~ span {
   color: #FFCC00;
 }
-/* 
-.web-info {
-  text-align: center;
-  color: #212A31;
-
-
-
-}
-
-.reviews {
-  width: 50%;
-  text-align: center;
-  margin: 5% auto;
-  padding: 20px;
-  border-radius: 10px;
-  color: #212A31;
-}
-
-.review {
-  display: none;
-  opacity:0;
-  transition: opacity 1s ease;
-}
-
-.review h3 {
-  font-size: 150%;
-  cursor:pointer;
-  transition: 0.3s ease;
-}
-
-.review p {
-  font-style: italic;
-}
-
-.review.active {
-  display: block;
-  animation: fade 1s ease-in-out;
-}
-
-.book-covers {
-  width: 30%;
-  display: flex;
-  gap: 10px;
-  margin: 0 35%;
-}
-
-.book-covers-power img {
-  width: 23%;
-
-
-}
-
-.book-covers-power {
-  display: flex;
-  gap: 10px;
-
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 3.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4
-  }
-
-  to {
-    opacity: 1
-  }
-} */
 
 #like-section {
   text-align: center;
@@ -455,18 +342,7 @@ font-size: large;
 .reviews{
   margin-left: 15%;
 }
-/* }
-.rating {
-  margin: 10px 0;
-}
 
-.rating i {
-  color: #FFCC00;
-  font-size: 24px;
-}
-.rating i:hover, .rating i.active{
-   color:#FFD700;
-} */
 .load-more-btn{
   margin: 5% auto;
   padding: 15px 30px;
@@ -482,9 +358,6 @@ font-size: large;
   background-color: #004d4d;
   color: white;
 }
-/* .mailbox{
-
-} */
 
 
 @media only screen and (max-width: 750px) {
