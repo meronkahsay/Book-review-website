@@ -1,0 +1,1021 @@
+.first-insight,.second-insight,.third-insight,.fourth-insight{
+    display: flex;
+    justify-content: space-around;
+}
+.number-one, .number-two, .number-three,.number-four{
+    font-size: 205px;
+    -webkit-text-stroke: 2px gray;
+    -webkit-text-fill-color: transparent;
+    /* /* margin-bottom: 15%; */
+    margin-top: -9%;
+}
+.number-one, .number-three{
+    margin-left: -25%;
+}
+.number-two,.number-four{
+    margin-right: -25%;
+}
+.number-one p{
+    background-image: url(Images/flower5.avif);
+    /* background-repeat: no-repeat; */
+    background-clip: text;
+    background-size: cover;
+}
+
+.number-two p{
+background-image: url(Images/flower2.webp);
+background-size: contain;
+background-clip: text;
+}
+.number-three p{
+background-image: url(Images/flower5.avif);
+background-size: cover;
+background-clip: text;
+}
+
+.number-four p{
+background-image: url(Images/flower2.webp);
+background-size: contain;
+background-clip: text;
+
+ }
+ .container h4{
+    /* font-weight: bolder; */
+    color:   rgb(221, 58, 17);
+ }
+ body{
+    font-family: "Poppins";
+    overflow-x: hidden;
+ }
+ h3{
+    font-family: "Merriweather";
+    font-size: 200%;
+    
+ }
+ #visual-rev{
+   width: 4cm;
+   height: 4cm;
+ }
+ .power{
+    background-image: url(Images/cover4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      width: 100%;
+    height: 100vh;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+ #books{
+    width: 100%;
+    height: 100vh;
+ }
+ #first{
+    width: 4cm;
+    height: 5.5cm;
+ }
+ .shaping{
+    display: flex;
+    gap: 3cm;
+    /* margin-top: 1cm; */
+    width: 20cm;
+    height: 7cm;
+    padding-top: 0.8cm;
+    padding-left: 0.8cm;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    /* justify-content: space-around; */
+    
+ }
+ .power-habits{
+    display: flex;
+    gap: 15cm;
+    padding-top: 0.8cm;
+    /* justify-content: space-around; */
+ }
+ #summary{
+    color: rgb(221, 58, 17);
+ }
+ .author{
+    display: flex;
+    gap: 3cm;
+    margin-top: 1cm;
+    /* background-color: #2E3944; */
+    width: 20cm;
+    height: 8.7cm;
+    padding-top: 0.8cm;
+    padding-left: 0.8cm;
+    margin-top: -7%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ }
+ #charles{
+    width: 4cm;
+    height: 4cm;
+ }
+ .articles{
+    display: flex;
+    gap: 4cm;
+    margin-top: 1cm;
+    /* background-color: #212A31; */
+    width: 20cm;
+    height: 6cm;
+    padding-top: 0.2cm;
+    padding-left: 0.8cm;
+    margin-top: -7%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+ }
+ .change{
+    display: flex;
+    gap: 6cm;
+    margin-top: 1cm;
+    /* background-color: #2E3944; */
+    width: 20cm;
+    height: 5cm;
+    padding-top: 0.2cm;
+    padding-left: 0.8cm;
+    margin-top: -7%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+ }
+.right{
+  /* background-color: black;  */
+  color: white;
+  width: 50%; 
+  height: 60vh;
+  padding-right: 0.5cm;
+  padding-bottom: 0.5cm;
+  /* padding-left: 1cm; */
+  /* margin-left: -7%; */
+  /* transform: rotate(-15deg); */
+  /* margin-top: 1cm; */
+  
+  /* padding-top: 0.6cm; */
+
+}
+.changing{
+    color: white;
+    text-align: center;
+  
+
+   /* place-content: center; */
+   /* align-content: center; */
+   /* padding-top: 17%; */
+    /* padding-left: 4cm; */
+    /* margin-left: 35%; */
+    margin-top:-12%;
+}
+.changing h1{
+    font-family: "Merriweather";
+    font-size: 350%;
+    margin-top: -8%;
+    /* margin-left: 9cm; */
+    /* justify-content: center; */
+    /* text-align: center; */
+
+}
+.changing p{
+   font-size: 25px;
+}
+#visual{
+   width: 19cm;
+   height: 19cm;
+}
+
+
+#card{
+    width: 15cm;
+    height: 15cm;
+}
+.buying{
+   display: flex;
+   gap: 1cm;
+}
+#get{
+   padding-bottom: 2%;
+   height: 2vh;
+   border-bottom: solid 2px;
+   width: 3.5cm;
+   color: rgb(221, 58, 17);
+   /* padding-top: -20px; */
+}
+#amazon{
+   width: 4cm;
+   height: 4cm;
+   /* padding-top: 3cm; */
+   /* padding-right: 3cm; */
+   border-radius: 100px;
+   margin-top: 4.5cm;
+}
+#prestige{
+   margin-top: 4cm;
+   /* width: 4cm;
+   height: 4cm; */
+}
+#jumia{
+   margin-top: 4.5cm; 
+   border-radius: 250px;
+   width: 4cm;
+   height: 4cm;
+}
+#like-section {
+   /* text-align: center; */
+   /* margin-top: 0.5%; */
+ }
+ #like-btn {
+   background-color: #FF4D6D;
+   color: white;
+   font-size: 25px;
+   margin-top: 10px;
+   border: none;
+   border-radius: 5px 5px ;
+   cursor: pointer;
+ }
+ #like-btn:hover {
+   background-color: #004D4D;
+   color: #FF4D6D;
+ }
+ #like-count {
+   font-size: medium;
+   color: white;
+ }a{
+   text-decoration: none;
+   color:white;
+   font-size: 30px;
+   /* font-family: "Merriweather"; */
+
+ }
+ nav {
+   top: 0;
+   /* background-image: linear-gradient(#212A31, #2E3944); */
+   /* z-index: 1000; */
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   gap: 6cm;
+   position: sticky;
+   background-color: black;
+   /* margin-top: ; */
+   width: 120vw;
+   height: 2.5cm;
+   margin-top: -2%;
+ }
+ nav a {
+   font-size: 100%;
+   font-weight: bolder;
+ }
+ nav a:hover {
+   color: #FFBF00;
+   text-decoration: underline;
+ }
+ .visual-img {
+   width: 100px;
+ }
+ footer {
+   background-image: linear-gradient(#212A31, #2E3944);
+   color: white;
+   justify-content:space-between;
+   width:100vw;
+ }
+ .footer-content{
+   line-height: 3;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+ 
+ }
+ .copy-right{
+   text-align: center;
+   color:#ffbf00;
+ }
+ .footer-nav{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+
+   line-height:2;
+ }
+ .footer-nav a{
+   font-size: 20px;
+ }
+ .location{
+   line-height: 1;
+ }
+ .location p:nth-child(2){
+   font-size: small;
+ }
+ footer input{
+   padding:3%;
+   width:100%;
+ }
+ .socials i{
+ margin-left: 10px;
+ font-size: large;
+ }
+ .socials{
+   line-height: 1;
+ }
+ #mailbox{
+   padding:3%;
+   width:30%;
+   border-radius: 50px;
+   border: none;
+ }
+ .all{
+   margin-left: 4cm;
+ }
+
+@media screen and (min-width: 350px) and (max-width: 1000px){
+   .first-insight,.second-insight,.third-insight,.fourth-insight{
+      display: flex;
+      justify-content: space-around;
+      display: block;
+      /* display: grid; */
+  }
+  .number-one, .number-two, .number-three,.number-four{
+      font-size: 205px;
+      -webkit-text-stroke: 2px gray;
+      -webkit-text-fill-color: transparent;
+      /* /* margin-bottom: 15%; */
+      margin-top: -9%;
+      
+      
+  }
+  .number-one, .number-three{
+      margin-left: -25%;
+  }
+  .number-two,.number-four{
+      margin-right: -25%;
+  }
+  .number-one p{
+      background-image: url(Images/flower5.avif);
+      /* background-repeat: no-repeat; */
+      background-clip: text;
+      background-size: cover;
+      margin-left: 3cm;
+  }
+  
+  .number-two p{
+  background-image: url(Images/flower2.webp);
+  background-size: contain;
+  background-clip: text;
+  }
+  .number-three p{
+  background-image: url(Images/flower5.avif);
+  background-size: cover;
+  background-clip: text;
+  margin-left: 3cm;
+  }
+  
+  .number-four p{
+  background-image: url(Images/flower2.webp);
+  background-size: contain;
+  background-clip: text;
+  
+   }
+   .container h3+p{
+      /* color: rgb(248, 245, 243); */
+      font-weight: bolder;
+      color:   rgb(221, 58, 17);
+   }
+   .container{
+      /* margin-top: 21cm; */
+      overflow-x: hidden;
+   }
+   body{
+      font-family: "Poppins";
+   }
+   h3{
+      font-family: "Merriweather";
+      font-size: 250%;
+      
+   }
+   .power{
+      background-image: url(Images/back3.jpg);
+      background-repeat: no-repeat;
+      background-size: 55% 100%;
+      height: 98vh;
+      background-blend-mode: darken;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* width: 100%; */
+   }
+   #books{
+      width: 100%;
+      height: 100vh;
+   }
+   #first{
+      width: 4cm;
+      height: 5.5cm;
+   }
+   .shaping{
+      display: flex;
+      gap: 3cm;
+      margin-top: 1cm;
+      width: 10cm;
+      height: 7cm;
+      padding-top: 0.8cm;
+      padding-left: 0.8cm;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 20px;
+      display: block;
+      
+   }
+   .power-habits{
+      display: flex;
+      gap: 15cm;
+      padding-top: 0.8cm;
+      display: block;
+      /* justify-content: space-around; */
+   }
+   #summary{
+      color: rgb(221, 58, 17);
+   }
+   .author{
+      display: flex;
+      gap: 3cm;
+      margin-top: 2cm;
+      /* background-color: #2E3944; */
+      width: 10cm;
+      height: 8.7cm;
+      padding-top: 3cm;
+      padding-left: 0.8cm;
+      /* margin-top: -9%; */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
+   }
+   #charles{
+      width: 4cm;
+      height: 4cm;
+   }
+   .articles{
+      display: flex;
+      gap: 4cm;
+      /* margin-top: 1cm; */
+      /* background-color: #212A31; */
+      width: 10cm;
+      height: 6cm;
+      padding-top: 1cm;
+      padding-left: 0.8cm;
+      margin-top: -5%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
+   }
+   .change{
+      display: flex;
+      gap: 6cm;
+      margin-top: 1cm;
+      /* background-color: #2E3944; */
+      width: 20cm;
+      height: 5cm;
+      padding-top: 1cm;
+      padding-left: 0.8cm;
+      margin-top: -7%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 20px;
+   }
+  .right{
+    background-color: black; 
+    color: white;
+    width: 98%; 
+    height: 120vh;
+    padding-right: 0.5cm;
+   padding-bottom: 0.5cm;
+    /* padding-left: 1cm; */
+    /* margin-left: -7%; */
+    /* transform: rotate(-15deg); */
+    margin-top: 1cm;
+    
+    /* padding-top: 0.6cm; */
+  
+  }
+  .changing{
+      color: white;
+      text-align: center;
+    
+  
+     /* place-content: center; */
+     /* align-content: center; */
+     /* padding-top: 17%; */
+      /* padding-left: 4cm; */
+      margin-left: 13%;
+      margin-top:10%;
+  }
+  .changing h1{
+      font-family: "Merriweather";
+      font-size: 250%;
+      margin-left: -1cm;
+  }
+  .changing p{
+   margin-left: -1cm;
+  }
+  #visual{
+      /* margin-left: 5cm; */
+      /* place-items: center; */
+      /* height: 22cm; */
+      /* width: 15cm; */
+  }
+  #card{
+      width: 15cm;
+      height: 15cm;
+     margin-left: -2cm;
+  }
+  .buying{
+     display: flex;
+     /* gap: 4cm; */
+     display: block;
+  }
+  #get{
+     padding-bottom: 2%;
+     height: 2vh;
+     border-bottom: solid 2px;
+     width: 3.5cm;
+     color: rgb(221, 58, 17);
+     /* padding-top: -20px; */
+  }
+  #amazon{
+     width: 5cm;
+     height: 5cm;
+     /* padding-top: 3cm; */
+     /* padding-right: 3cm; */
+     border-radius: 100px;
+     margin-top: 2cm;
+     margin-left: 2cm;
+  }
+  #prestige{
+     margin-top: 2cm;
+    margin-left: 1cm;
+  }
+  #jumia{
+     margin-top: 2cm; 
+     border-radius: 250px;
+     width: 5cm;
+     height: 5cm;
+     margin-left: 2cm;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 740px){
+   .first-insight,.second-insight,.third-insight,.fourth-insight{
+      display: flex;
+      justify-content: space-around;
+      display: block;
+      /* display: grid; */
+  }
+  .number-one, .number-two, .number-three,.number-four{
+      font-size: 205px;
+      -webkit-text-stroke: 2px gray;
+      -webkit-text-fill-color: transparent;
+      /* /* margin-bottom: 15%; */
+      margin-top: -9%;
+      
+      
+  }
+  .number-one, .number-three{
+      margin-left: -25%;
+      /* margin-top: -30cm; */
+  }
+  .number-two,.number-four{
+      margin-right: -25%;
+  }
+  .number-one p{
+      background-image: url(Images/flower5.avif);
+      /* background-repeat: no-repeat; */
+      background-clip: text;
+      background-size: cover;
+      margin-left: 3cm;
+      
+  }
+  
+  .number-two p{
+  background-image: url(Images/flower2.webp);
+  background-size: contain;
+  background-clip: text;
+  }
+  .number-three p{
+  background-image: url(Images/flower5.avif);
+  background-size: cover;
+  background-clip: text;
+  margin-left: 3cm;
+  }
+  
+  .number-four p{
+  background-image: url(Images/flower2.webp);
+  background-size: contain;
+  background-clip: text;
+  
+   }
+   .container h3+p{
+      /* color: rgb(248, 245, 243); */
+      font-weight: bolder;
+      color:   rgb(221, 58, 17);
+   }
+   .container{
+      margin-top: 21cm;
+      overflow-x: hidden;
+   }
+   body{
+      font-family: "Poppins";
+   }
+   h3{
+      font-family: "Merriweather";
+      font-size: 250%;
+      
+   }
+   .power{
+      background-image: url(Images/back3.jpg);
+      background-repeat: no-repeat;
+      background-size: 105% 110%;
+      height: 98vh;
+      background-blend-mode: darken;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* width: 100%; */
+      /* background-size: cover; */
+   }
+   #books{
+      width: 100%;
+      height: 100vh;
+   }
+   #first{
+      width: 4cm;
+      height: 5.5cm;
+   }
+   .shaping{
+      display: flex;
+      gap: 3cm;
+      margin-top: 1cm;
+      width: 10cm;
+      height: 7cm;
+      padding-top: 0.8cm;
+      padding-left: 0.8cm;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 20px;
+      display: block;
+      
+   }
+   .power-habits{
+      display: flex;
+      gap: 15cm;
+      padding-top: 0.8cm;
+      display: block;
+      /* justify-content: space-around; */
+   }
+   #summary{
+      color: rgb(221, 58, 17);
+   }
+   .author{
+      display: flex;
+      gap: 3cm;
+      margin-top: 2cm;
+      /* background-color: #2E3944; */
+      width: 10cm;
+      height: 8.7cm;
+      padding-top: 3cm;
+      padding-left: 0.8cm;
+      /* margin-top: -9%; */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
+   }
+   #charles{
+      width: 4cm;
+      height: 4cm;
+   }
+   .articles{
+      display: flex;
+      gap: 4cm;
+      /* margin-top: 1cm; */
+      /* background-color: #212A31; */
+      width: 10cm;
+      height: 6cm;
+      padding-top: 1cm;
+      padding-left: 0.8cm;
+      margin-top: -5%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
+   }
+   .change{
+      display: flex;
+      gap: 6cm;
+      margin-top: 1cm;
+      /* background-color: #2E3944; */
+      width: 20cm;
+      height: 5cm;
+      padding-top: 1cm;
+      padding-left: 0.8cm;
+      margin-top: -7%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 20px;
+   }
+  .right{
+    background-color: black; 
+    color: white;
+    width: 112%; 
+    height: 120vh;
+    padding-right: 0.5cm;
+   padding-bottom: 0.5cm;
+ 
+   
+    margin-top: 1cm;
+    
+  
+  }
+  .changing{
+      color: white;
+      text-align: center;
+   
+      margin-left: 13%;
+      margin-top:10%;
+  }
+  .changing h1{
+      font-family: "Merriweather";
+      font-size: 250%;
+      margin-left: -1cm;
+  }
+  .changing p{
+   margin-left: -1cm;
+  }
+ 
+  
+  #card{
+      width: 15cm;
+      height: 15cm;
+     margin-left: -2cm;
+  }
+  .buying{
+     display: flex;
+     
+     display: block;
+  }
+  #get{
+     padding-bottom: 2%;
+     height: 2vh;
+     border-bottom: solid 2px;
+     width: 3.5cm;
+     color: rgb(221, 58, 17);
+    
+     
+  }
+  #amazon{
+     width: 5cm;
+     height: 5cm;
+   
+     border-radius: 100px;
+     margin-top: 2cm;
+     margin-left: 2cm;
+  }
+  #prestige{
+     margin-top: 2cm;
+    margin-left: 1cm;
+  }
+  #jumia{
+     margin-top: 2cm; 
+     border-radius: 250px;
+     width: 5cm;
+     height: 5cm;
+     margin-left: 2cm;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+   .first-insight,.second-insight,.third-insight,.fourth-insight{
+      display: flex;
+      justify-content: space-around;
+      display: block;
+
+    
+  }
+  .number-one, .number-two, .number-three,.number-four{
+      font-size: 205px;
+      -webkit-text-stroke: 2px gray;
+      -webkit-text-fill-color: transparent;
+   
+      margin-top: -9%;
+      
+      
+  }
+  .first-insight{
+   margin-top: 27%;
+  }
+  .habit-loop h3{
+   margin-bottom: 12%;
+   margin-top: 12%;
+  }
+  .number-one{
+   margin-left: 18%;
+   margin-top: -109%;
+  }
+   .number-three{
+      margin-left: 22%;
+      margin-top: -19cm;
+  }
+  .number-two{
+   margin-left: 29%;
+   margin-top: 5%;
+   margin-bottom: -35%;
+  }
+  .number-four{
+      margin-left: 35%;
+      margin-top: 35%;
+  }
+  .free-will{
+      margin-top: -28%;
+  }
+  .number-one p{
+      background-image: url(Images/flower5.avif);
+    
+      background-clip: text;
+      background-size: cover;
+      margin-left: 3cm;
+      
+  }
+  
+  .number-two p{
+  background-image: url(Images/flower2.webp);
+  background-size: contain;
+  background-clip: text;
+  }
+  .number-three p{
+  background-image: url(Images/flower5.avif);
+  background-size: cover;
+  background-clip: text;
+  margin-left: 3cm;
+  }
+  
+  .number-four p{
+  background-image: url(Images/flower2.webp);
+  background-size: contain;
+  background-clip: text;
+  
+   }
+   .container h3+p{
+    
+      font-weight: bolder;
+      color:   rgb(221, 58, 17);
+      margin-top: 4cm;
+   }
+   .container{
+      margin-top: 23cm;
+      overflow-x: hidden;
+   }
+   body{
+      font-family: "Poppins";
+   }
+   h3{
+      font-family: "Merriweather";
+      font-size: 250%;
+      
+   }
+   .power{
+      background-image: url(Images/back3.jpg);
+      background-repeat: no-repeat;
+      background-size: 105% 110%;
+      height: 98vh;
+      background-blend-mode: darken;
+      background-color: rgba(0, 0, 0, 0.5);
+   
+   }
+   #books{
+      width: 100%;
+      height: 100vh;
+   }
+   #first{
+      width: 4cm;
+      height: 5.5cm;
+   }
+   .shaping{
+      display: flex;
+      gap: 3cm;
+      margin-top: 1cm;
+      width: 15cm;
+      height: 7cm;
+      padding-top: 0.8cm;
+      padding-left: 2cm;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 20px;
+      display: block;
+      
+   }
+   .power-habits{
+      display: flex;
+     
+      padding-top: 0.8cm;
+      display: block;
+     
+   }
+   #summary{
+      color: rgb(221, 58, 17);
+   }
+   .author{
+      display: flex;
+      gap: 3cm;
+      margin-top: 2cm;
+   
+      width: 15cm;
+      height: 8.7cm;
+      padding-top: 3cm;
+      padding-left: 2cm;
+    
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
+   }
+   #charles{
+      width: 4cm;
+      height: 4cm;
+   }
+   .articles{
+      display: flex;
+      gap: 4cm;
+    
+      width: 15cm;
+      height: 6cm;
+      padding-top: 1cm;
+      padding-left: 2cm;
+      margin-top: -5%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      display: block;
+   }
+   .change{
+      display: flex;
+      gap: 6cm;
+      margin-top: 1cm;
+    
+      width: 20cm;
+      height: 5cm;
+      padding-top: 1cm;
+      padding-left: 0.8cm;
+      margin-top: -7%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 20px;
+   }
+  .right{
+    background-color: black; 
+    color: white;
+    width: 105%; 
+    height: 120vh;
+    padding-right: 0.5cm;
+   padding-bottom: 0.5cm;
+    
+    margin-top: 1cm;
+    
+  
+  
+  }
+  .changing{
+      color: white;
+      text-align: center;
+   
+      margin-left: 13%;
+      margin-top:10%;
+  }
+  .changing h1{
+      font-family: "Merriweather";
+      font-size: 250%;
+      margin-left: -5cm;
+  }
+  .changing p{
+   margin-left: -5cm;
+  }
+  
+  
+  #card{
+      width: 15cm;
+      height: 15cm;
+     margin-left: -2cm;
+  }
+  .buying{
+     display: flex;
+    
+     display: block;
+  }
+  #get{
+     padding-bottom: 2%;
+     height: 2vh;
+     border-bottom: solid 2px;
+     width: 3.5cm;
+     color: rgb(221, 58, 17);
+     
+  }
+  #amazon{
+     width: 5cm;
+     height: 5cm;
+   
+     border-radius: 100px;
+     margin-top: 2cm;
+     margin-left: 2cm;
+  }
+  #prestige{
+     margin-top: 4cm;
+    margin-left: 1cm;
+  }
+  #jumia{
+     margin-top: 2cm; 
+     border-radius: 250px;
+     width: 5cm;
+     height: 5cm;
+     margin-left: 2cm;
+  }  
+  .keystone-habits h3{
+   margin-top: 23%;
+  }
+  .container h3+p{
+   font-weight: bolder;
+   color:   rgb(221, 58, 17);
+   margin-top: -5%;
+}
+}
