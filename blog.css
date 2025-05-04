@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+      overflow-x: hidden;
+    background-image: linear-gradient(#2d3944, #343e49);
+    width: 100%;
+    margin: 0%;
+}
+
+.container h1{
+    font-family: "Merriweather";
+    font-size: 300%;
+    font-weight: bold;
+}
+.first-insight,.second-insight,.third-insight,.fourth-insight,.fifth-insight{
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-around;
+    margin-bottom: -7%;
+    color: white;
+}
+.number1,.number2,.number3,.number4,.number5{
+   font-size: 205px;
+   -webkit-text-stroke: 2px gray;
+   -webkit-text-fill-color: transparent;
+   align-content: center;
+   margin-top: -8%;
+ }
+   .number1,.number3,.number5{
+    margin-left: -19%;
+   }
+   .number2,.number4{
+    margin-left: 19%;
+   }
+.number1 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-clip: text;
+}
+.number2 p{
+    background-image: url(images/city-8206042_640.png);
+    background-size: cover;
+    background-clip: text;
+}
+.number3 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-size: contain;
+    background-clip: text;
+}
+.number4 p{
+    background-image: url(images/city-8206042_640.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+}
+.number5 p{
+    background-image: url(images/daisies-9547672_640\ \(1\).webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+}
+.independence h1+p,.rich-without-money h1 +p,.relationship h1 +p,.patriachy h1 +p,.power-of-language h1 +p{
+    color: #FFCC00;
+}
+style #like-section {
+    text-align: center;
+    margin-top: 0.5%;
+  }
+  #like-btn {
+    background-color: #FF4D6D;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px 5px ;
+    cursor: pointer;
+  }
+  #like-btn:hover {
+    background-color: #004D4D;
+    color: #FF4D6D;
+  }
+  #like-count {
+    font-size: medium;
+    color: white;
+  }a{
+    text-decoration: none;
+    color:white;
+  }
+  nav {
+    background-image: linear-gradient(#212A31, #2E3944);
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    align-items:center;
+    position: sticky;
+    width: 100vw;
+  }
+  nav a {
+    font-size: 100%;
+    font-weight: bolder;
+  }
+  nav a:hover {
+    color: #FFBF00;
+  }
+  .visual-img {
+    width: 100px;
+  }
+.book-review{
+    background:url(https://i.pinimg.com/736x/59/e4/dc/59e4dc1c99e4b92f6cd7dbdc28953eb5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    display: flex;
+    height: 100vh;
+    font-size: 0.7em;
+  
+}
+.noah-review {
+    font-size: 0.4in;
+    padding-top: 17%;
+    font-weight: bolder;
+    color: #9bc3e9;
+    margin-left: 32%;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+footer {
+    background-image: linear-gradient(#212A31, #2E3944);
+    color: white;
+    justify-content:space-between;
+  }
+  .footer-content{
+    line-height: 3;
+    font-size: 120%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12%;
+  }
+  .copy-right{
+    text-align: center;
+    color:#ffbf00;
+  }
+  .footer-nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .location{
+    line-height: 1;
+  }
+  .location p:nth-child(2){
+    font-size: small;
+  }
+  footer input{
+    padding:3%;
+    width:100%;
+  }
+  .socials i{
+  margin-left: 10px;
+  font-size: large;
+  }
+  .socials{
+    line-height: 1;
+  }
+  #mailbox{
+    padding:3%;
+    width:30%;
+    border-radius: 50px;
+  }
+@media screen and (min-width: 320px) and (max-width: 950px){
+    body{
+        font-size: 0.9em;
+        overflow-x: hidden;
+    }
+    .noah-review {
+        font-size: 0.2in;
+    }
+    .book-review{
+        display: block;
+        height: 140vh;
+    }
+    .first-insight,.second-insight,.third-insight,.fourth-insight,.fifth-insight{
+        display: block;
+        justify-content: unset;
+        margin-bottom: -2%;
+    }
+   
+    .number1,.number3,.number5{
+        margin-left: 10%;
+        
+       }
+       .number2,.number4{
+        margin-left: 19%;
+       }
+       .container{
+        margin-top: 12%;
+       }
+       .number1,.number2,.number3,.number4,.number5{
+        margin-top: 0%;
+       }
+       .review{
+        gap: 1cm;
+    }
+    .independence{
+        margin-top: 130%;
+    }
+    .independence h1{
+        margin-left: 12%;
+    }
+    .number1{
+        margin-top: -228%;
+        margin-left: 22%;
+    }
+    .rich-without-money{
+        margin-top: -65%;
+    }
+    .rich-without-money h1{
+        margin-left: 12%;
+    }
+    .power-of-language h1{
+        margin-top: 62%;
+    }
+    .number3{
+        margin-top: -234%;
+        margin-left: 20%;
+    }
+    .relationship{
+        margin-top: -65%;
+    }
+    .relationship h1{
+        margin-left: 12%;
+    }
+    .patriachy{
+        margin-top: 62%;
+    }
+    .number5{
+        margin-top: -248%;
+        margin-left: 18%;
+    }
+    .patriachy h1{
+        margin-left: 20%;
+    }
+    .picture1 img{
+        width: 14vw;
+        /* height: 15vh; */
+    }
+    .picture img{
+     
+        width: 16vw;
+        height: 15vh;
+    }
+    footer {
+  background-image: linear-gradient(#212A31, #2E3944);
+  color: white;
+  justify-content:space-between;
+}
+.footer-content{
+  line-height: 3;
+  font-size: 120%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.copy-right{
+  text-align: center;
+  color:#ffbf00;
+}
+.footer-nav{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location{
+  line-height: 1;
+}
+.location p:nth-child(2){
+  font-size: small;
+}
+footer input{
+  padding:3%;
+  width:100%;
+}
+.socials i{
+margin-left: 10px;
+font-size: large;
+}
+.socials{
+  line-height: 1;
+}
+#mailbox{
+  padding:3%;
+  width:30%;
+  border-radius: 50px;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 1120px){
+    body{
+        font-size: 0.6em;
+        overflow-x: hidden;
+    }
+    .first-insight,.second-insight,.third-insight,.fourth-insight,.fifth-insight{
+        flex: 1;
+        margin-bottom: 7%;
+        gap: 1cm;
+        justify-content:unset;
+    }
+    .first-book{
+        border: 1px solid white;
+        width: 28vw;
+        height: 40vh;
+        margin-top: 4%;
+        border-radius: 12px;
+        color: black;
+        font-weight: 500;
+        transform: rotate(-8deg);
+        margin-right: 10%;
+    }
+    .noah-review {
+        font-size: 0.2in;
+        padding-top: 20%;
+        font-weight: bolder;
+        color: #9bc3e9; 
+        align-items: self-start;
+    }
+    .review{
+        display: flex;
+        gap: 1cm;
+        padding: 0.6cm;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+}
