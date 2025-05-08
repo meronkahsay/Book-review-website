@@ -118,13 +118,19 @@ style #like-section {
   
 }
 .noah-review {
-    font-size: 0.4in;
+    font-size: 0.2in;
     padding-top: 17%;
     font-weight: bolder;
     color: #9bc3e9;
     margin-left: 32%;
     align-items: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.noah-review h2{
+  margin-left: 32%;
+}
+.noah-review h1{
+  font-size: 0.8in;
 }
 footer {
     background-image: linear-gradient(#212A31, #2E3944);
@@ -166,6 +172,7 @@ footer {
     line-height: 1;
   }
   #mailbox{
+    border-color: transparent;
     padding:3%;
     width:30%;
     border-radius: 50px;
